@@ -122,9 +122,7 @@ class CellBinDBDataset(Dataset):
         image_file, _, seg_file = identify_files(files)
 
         if image_file is None or seg_file is None:
-	    raise ValueError(
-	        f"Could not identify image/mask in {sample_dir}. Files: {files}"
-	    )
+	    raise ValueError(f"Could not identify image/mask in {sample_dir}. Files: {files}")
 
         image_path = os.path.join(sample_dir, image_file)
         mask_path = os.path.join(sample_dir, seg_file)
