@@ -112,17 +112,14 @@ class CellBinDBDataset(Dataset):
     def __getitem__(self, idx):
 	sample_dir = self.samples[idx]
 
-	files = [
-	f for f in os.listdir(sample_dir)
-	if f.lower().endswith((".png", ".jpg", ".jpeg", ".tif", ".tiff"))
-	]
+	files = [f for f in os.listdir(sample_dir) if f.lower().endswith((".png", ".jpg", ".jpeg", ".tif", ".tiff"))]
 
 	image_file, _, seg_file = identify_files(files)
 
 	if image_file is None or seg_file is None:
-	raise ValueError(
-	    f"Could not identify image/mask in {sample_dir}. Files: {files}"
-	)
+		raise ValueError(
+		    f"Could not identify image/mask in {sample_dir}. Files: {files}"
+		)
 
 	image_path = os.path.join(sample_dir, image_file)
 	mask_path = os.path.join(sample_dir, seg_file)
@@ -133,10 +130,10 @@ class CellBinDBDataset(Dataset):
 
 	# Convert to grayscale if needed
 	if img_pil.mode != "L":
-	img_pil = img_pil.convert("L")
+		img_pil = img_pil.convert("L")
 
 	if mask_pil.mode != "L":
-	mask_pil = mask_pil.convert("L")
+		mask_pil = mask_pil.convert("L")
 
 	# Resize image and mask
 	img_pil = img_pil.resize(
@@ -155,7 +152,7 @@ class CellBinDBDataset(Dataset):
 	# Normalize image
 	img_max = img.max()
 	if img_max > 0:
-	img = img / img_max
+		img = img / img_max
 
 	# Convert mask to binary
 	mask = np.array(mask_pil).astype(np.float32)
