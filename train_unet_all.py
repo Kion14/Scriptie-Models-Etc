@@ -110,59 +110,65 @@ class CellBinDBDataset(Dataset):
         return len(self.samples)
 
     def __getitem__(self, idx):
-	sample_dir = self.samples[idx]
+        sample_dir = self.samples[idx]
 
-	files = [f for f in os.listdir(sample_dir) if f.lower().endswith((".png", ".jpg", ".jpeg", ".tif", ".tiff"))]
+        files = [
+	    f for f in os.listdir(sample_dir)
+	    if f.lower().endswith(
+	        (".png", ".jpg", ".jpeg", ".tif", ".tiff")
+	    )
+        ]
 
-	image_file, _, seg_file = identify_files(files)
+        image_file, _, seg_file = identify_files(files)
 
-	if image_file is None or seg_file is None:
-		raise ValueError(
-		    f"Could not identify image/mask in {sample_dir}. Files: {files}"
-		)
+        if image_file is None or seg_file is None:
+	    raise ValueError(
+	        f"Could not identify image/mask in {sample_dir}. Files: {files}"
+	    )
 
-	image_path = os.path.join(sample_dir, image_file)
-	mask_path = os.path.join(sample_dir, seg_file)
+        image_path = os.path.join(sample_dir, image_file)
+        mask_path = os.path.join(sample_dir, seg_file)
 
-	# Load PIL images
-	img_pil = Image.open(image_path)
-	mask_pil = Image.open(mask_path)
+        # Load PIL images
+        img_pil = Image.open(image_path)
+        mask_pil = Image.open(mask_path)
 
-	# Convert to grayscale if needed
-	if img_pil.mode != "L":
-		img_pil = img_pil.convert("L")
+        # Convert to grayscale if needed
+        if img_pil.mode != "L":
+	    img_pil = img_pil.convert("L")
 
-	if mask_pil.mode != "L":
-		mask_pil = mask_pil.convert("L")
+        if mask_pil.mode != "L":
+	    mask_pil = mask_pil.convert("L")
 
-	# Resize image and mask
-	img_pil = img_pil.resize(
-	TARGET_SIZE,
-	Image.BILINEAR
-	)
+        # Resize image
+        img_pil = img_pil.resize(
+	    TARGET_SIZE,
+	    Image.BILINEAR
+        )
 
-	mask_pil = mask_pil.resize(
-	TARGET_SIZE,
-	Image.NEAREST
-	)
+        # Resize mask
+        mask_pil = mask_pil.resize(
+	    TARGET_SIZE,
+	    Image.NEAREST
+        )
 
-	# Convert image to numpy
-	img = np.array(img_pil).astype(np.float32)
+        # Convert image to numpy
+        img = np.array(img_pil).astype(np.float32)
 
-	# Normalize image
-	img_max = img.max()
-	if img_max > 0:
-		img = img / img_max
+        # Normalize image
+        img_max = img.max()
+        if img_max > 0:
+	    img = img / img_max
 
-	# Convert mask to binary
-	mask = np.array(mask_pil).astype(np.float32)
-	mask = (mask > 0).astype(np.float32)
+        # Convert mask to binary
+        mask = np.array(mask_pil).astype(np.float32)
+        mask = (mask > 0).astype(np.float32)
 
-	# Convert to tensors
-	image = torch.from_numpy(img).float().unsqueeze(0).clone()
-	mask = torch.from_numpy(mask).float().unsqueeze(0).clone()
+        # Convert to tensors
+        image = torch.from_numpy(img).float().unsqueeze(0).clone()
+        mask = torch.from_numpy(mask).float().unsqueeze(0).clone()
 
-	return image, mask
+        return image, mask
 
 
 # ======================================================
