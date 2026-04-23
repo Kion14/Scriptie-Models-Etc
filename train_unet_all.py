@@ -15,30 +15,28 @@ from torch.utils.data import Dataset, DataLoader, Subset
 # CONFIG
 # =========================================================
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print("Using device:", DEVICE)
+print(f"Using device: {DEVICE}")
 
-# Data path:
-# 1) use environment variable DATA_DIR if set
-# 2) otherwise fall back to $TMPDIR/CellBinDB
-# 3) otherwise use ./CellBinDB
+# DATA_DIR should point to the folder that contains all stain folders
+# Example:
+# CellBinDB/
+#   DAPI/
+#   HE/
+#   ...
 DATA_DIR = os.environ.get(
     "DATA_DIR",
     os.path.join(os.environ.get("TMPDIR", "."), "CellBinDB")
 )
 
-# Split files
 TRAIN_SPLIT_FILE = "train_indices_ALL.pt"
 VAL_SPLIT_FILE = "val_indices_ALL.pt"
 TEST_SPLIT_FILE = "test_indices_ALL.pt"
 
-# Output directories
 RESULTS_DIR = Path("results")
 CHECKPOINT_DIR = Path("checkpoints")
-
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 CHECKPOINT_DIR.mkdir(parents=True, exist_ok=True)
 
-# Training hyperparameters
 BATCH_SIZE = 4
 LEARNING_RATE = 1e-4
 NUM_EPOCHS = 100
@@ -46,15 +44,17 @@ BCE_WEIGHT = 0.5
 NUM_WORKERS = 4
 PIN_MEMORY = torch.cuda.is_available()
 TARGET_SIZE = (256, 256)
-# Early stopping
 EARLY_STOPPING_PATIENCE = 10
+NUM_PREDICTION_SAMPLES = 30
 
 
 # =========================================================
-# FILE IDENTIFICATION
+# HELPERS
 # =========================================================
 def identify_files(files):
-    image_file, instance_file, seg_file = None, None, None
+    image_file = None
+    instance_file = None
+    seg_file = None
 
     for f in files:
         name = f.lower()
@@ -73,35 +73,37 @@ def identify_files(files):
 # DATASET
 # =========================================================
 class CellBinDBDataset(Dataset):
-    def __init__(self, root_dir):
+    def __init__(self, root_dir, target_size=(256, 256)):
         self.root_dir = root_dir
-
-        if not os.path.isdir(root_dir):
-            raise FileNotFoundError(f"Dataset directory not found: {root_dir}")
-
+        self.target_size = target_size
         self.samples = []
 
-        stain_folders = [
-            os.path.join(root_dir, d)
-            for d in os.listdir(root_dir)
-            if os.path.isdir(os.path.join(root_dir, d))
-        ]
+        if not os.path.isdir(self.root_dir):
+            raise FileNotFoundError(f"Dataset directory not found: {self.root_dir}")
+
+        stain_folders = sorted(
+            [
+                os.path.join(self.root_dir, d)
+                for d in os.listdir(self.root_dir)
+                if os.path.isdir(os.path.join(self.root_dir, d))
+            ]
+        )
 
         if len(stain_folders) == 0:
-            raise RuntimeError(f"No stain folders found in dataset directory: {root_dir}")
+            raise RuntimeError(f"No stain folders found in: {self.root_dir}")
 
         for stain_folder in stain_folders:
-            sample_dirs = [
-                os.path.join(stain_folder, d)
-                for d in os.listdir(stain_folder)
-                if os.path.isdir(os.path.join(stain_folder, d))
-            ]
+            sample_dirs = sorted(
+                [
+                    os.path.join(stain_folder, d)
+                    for d in os.listdir(stain_folder)
+                    if os.path.isdir(os.path.join(stain_folder, d))
+                ]
+            )
             self.samples.extend(sample_dirs)
 
-        self.samples = sorted(self.samples)
-
         if len(self.samples) == 0:
-            raise RuntimeError(f"No sample folders found across stain folders in: {root_dir}")
+            raise RuntimeError(f"No sample folders found in any stain folder under: {self.root_dir}")
 
         print(f"Found {len(stain_folders)} stain folders")
         print(f"Total samples found: {len(self.samples)}")
@@ -113,64 +115,47 @@ class CellBinDBDataset(Dataset):
         sample_dir = self.samples[idx]
 
         files = [
-	    f for f in os.listdir(sample_dir)
-	    if f.lower().endswith(
-	        (".png", ".jpg", ".jpeg", ".tif", ".tiff")
-	    )
+            f for f in os.listdir(sample_dir)
+            if f.lower().endswith((".png", ".jpg", ".jpeg", ".tif", ".tiff"))
         ]
 
         image_file, _, seg_file = identify_files(files)
 
         if image_file is None or seg_file is None:
-	    raise ValueError(f"Could not identify image/mask in {sample_dir}. Files: {files}")
+            raise ValueError(
+                f"Could not identify image and mask in {sample_dir}. Files found: {files}"
+            )
 
         image_path = os.path.join(sample_dir, image_file)
         mask_path = os.path.join(sample_dir, seg_file)
 
-        # Load PIL images
         img_pil = Image.open(image_path)
         mask_pil = Image.open(mask_path)
 
-        # Convert to grayscale if needed
         if img_pil.mode != "L":
-	    img_pil = img_pil.convert("L")
-
+            img_pil = img_pil.convert("L")
         if mask_pil.mode != "L":
-	    mask_pil = mask_pil.convert("L")
+            mask_pil = mask_pil.convert("L")
 
-        # Resize image
-        img_pil = img_pil.resize(
-	    TARGET_SIZE,
-	    Image.BILINEAR
-        )
+        img_pil = img_pil.resize(self.target_size, Image.BILINEAR)
+        mask_pil = mask_pil.resize(self.target_size, Image.NEAREST)
 
-        # Resize mask
-        mask_pil = mask_pil.resize(
-	    TARGET_SIZE,
-	    Image.NEAREST
-        )
-
-        # Convert image to numpy
-        img = np.array(img_pil).astype(np.float32)
-
-        # Normalize image
+        img = np.array(img_pil, dtype=np.float32)
         img_max = img.max()
         if img_max > 0:
-	    img = img / img_max
+            img = img / img_max
 
-        # Convert mask to binary
-        mask = np.array(mask_pil).astype(np.float32)
+        mask = np.array(mask_pil, dtype=np.float32)
         mask = (mask > 0).astype(np.float32)
 
-        # Convert to tensors
-        image = torch.from_numpy(img).float().unsqueeze(0).clone()
-        mask = torch.from_numpy(mask).float().unsqueeze(0).clone()
+        image_tensor = torch.from_numpy(img).unsqueeze(0).float()
+        mask_tensor = torch.from_numpy(mask).unsqueeze(0).float()
 
-        return image, mask
+        return image_tensor, mask_tensor
 
 
-# ======================================================
-# U-NET
+# =========================================================
+# MODEL
 # =========================================================
 class UNet(nn.Module):
     def __init__(self):
@@ -199,11 +184,12 @@ class UNet(nn.Module):
 
         self.final = nn.Conv2d(64, 1, kernel_size=1)
 
-    def conv_block(self, in_c, out_c):
+    @staticmethod
+    def conv_block(in_channels, out_channels):
         return nn.Sequential(
-            nn.Conv2d(in_c, out_c, kernel_size=3, padding=1),
+            nn.Conv2d(in_channels, out_channels, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
-            nn.Conv2d(out_c, out_c, kernel_size=3, padding=1),
+            nn.Conv2d(out_channels, out_channels, kernel_size=3, padding=1),
             nn.ReLU(inplace=True),
         )
 
@@ -231,26 +217,37 @@ class UNet(nn.Module):
         d1 = torch.cat([d1, e1], dim=1)
         d1 = self.dec1(d1)
 
-        return self.final(d1)  # logits
+        return self.final(d1)
 
 
 # =========================================================
-# METRICS
+# LOSSES / METRICS
 # =========================================================
-def compute_metrics_from_logits(logits, target, threshold=0.5, eps=1e-8):
+def dice_loss_from_logits(logits, target, eps=1e-8):
     probs = torch.sigmoid(logits)
-    pred = (probs > threshold).float()
 
-    pred = pred.view(-1)
+    probs = probs.view(-1)
     target = target.view(-1)
 
-    tp = (pred * target).sum()
-    fp = (pred * (1 - target)).sum()
-    fn = ((1 - pred) * target).sum()
+    intersection = (probs * target).sum()
+    dice = (2 * intersection + eps) / (probs.sum() + target.sum() + eps)
+    return 1 - dice
+
+
+def compute_metrics_from_logits(logits, target, threshold=0.5, eps=1e-8):
+    probs = torch.sigmoid(logits)
+    preds = (probs > threshold).float()
+
+    preds = preds.view(-1)
+    target = target.view(-1)
+
+    tp = (preds * target).sum()
+    fp = (preds * (1 - target)).sum()
+    fn = ((1 - preds) * target).sum()
 
     precision = tp / (tp + fp + eps)
     recall = tp / (tp + fn + eps)
-    f1 = 2 * (precision * recall) / (precision + recall + eps)
+    f1 = 2 * precision * recall / (precision + recall + eps)
     iou = tp / (tp + fp + fn + eps)
     dice = (2 * tp) / (2 * tp + fp + fn + eps)
 
@@ -263,28 +260,16 @@ def compute_metrics_from_logits(logits, target, threshold=0.5, eps=1e-8):
     }
 
 
-def dice_loss_from_logits(logits, target, eps=1e-8):
-    probs = torch.sigmoid(logits)
-
-    probs = probs.view(-1)
-    target = target.view(-1)
-
-    intersection = (probs * target).sum()
-    dice = (2 * intersection + eps) / (probs.sum() + target.sum() + eps)
-    return 1 - dice
-
-
 # =========================================================
-# EPOCH FUNCTIONS
+# TRAIN / VAL
 # =========================================================
 def train_one_epoch(model, loader, optimizer, bce_weight=0.5):
     model.train()
+    bce_loss = nn.BCEWithLogitsLoss()
 
     running_loss = 0.0
     metric_sums = {"precision": 0.0, "recall": 0.0, "f1": 0.0, "iou": 0.0, "dice": 0.0}
     n_batches = 0
-
-    bce_loss = nn.BCEWithLogitsLoss()
 
     for images, masks in loader:
         images = images.to(DEVICE, non_blocking=True)
@@ -304,25 +289,23 @@ def train_one_epoch(model, loader, optimizer, bce_weight=0.5):
         running_loss += loss.item()
 
         metrics = compute_metrics_from_logits(logits.detach(), masks)
-        for k in metric_sums:
-            metric_sums[k] += metrics[k]
+        for key in metric_sums:
+            metric_sums[key] += metrics[key]
 
         n_batches += 1
 
     avg_loss = running_loss / max(n_batches, 1)
     avg_metrics = {k: metric_sums[k] / max(n_batches, 1) for k in metric_sums}
-
     return avg_loss, avg_metrics
 
 
 def validate_one_epoch(model, loader, bce_weight=0.5):
     model.eval()
+    bce_loss = nn.BCEWithLogitsLoss()
 
     running_loss = 0.0
     metric_sums = {"precision": 0.0, "recall": 0.0, "f1": 0.0, "iou": 0.0, "dice": 0.0}
     n_batches = 0
-
-    bce_loss = nn.BCEWithLogitsLoss()
 
     with torch.no_grad():
         for images, masks in loader:
@@ -338,25 +321,49 @@ def validate_one_epoch(model, loader, bce_weight=0.5):
             running_loss += loss.item()
 
             metrics = compute_metrics_from_logits(logits, masks)
-            for k in metric_sums:
-                metric_sums[k] += metrics[k]
+            for key in metric_sums:
+                metric_sums[key] += metrics[key]
 
             n_batches += 1
 
     avg_loss = running_loss / max(n_batches, 1)
     avg_metrics = {k: metric_sums[k] / max(n_batches, 1) for k in metric_sums}
-
     return avg_loss, avg_metrics
 
 
 # =========================================================
 # VISUALIZATION
 # =========================================================
-def save_predictions(model, loader, num_samples=5, out_dir=RESULTS_DIR / "predictions"):
+def save_training_plots(history, out_dir=RESULTS_DIR):
+    plt.figure(figsize=(8, 4))
+    plt.plot(history["train_loss"], label="Train Loss")
+    plt.plot(history["val_loss"], label="Val Loss")
+    plt.xlabel("Epoch")
+    plt.ylabel("Loss")
+    plt.title("Training and Validation Loss")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(out_dir / "loss_curve.png")
+    plt.close()
+
+    plt.figure(figsize=(8, 4))
+    plt.plot(history["train_dice"], label="Train Dice")
+    plt.plot(history["val_dice"], label="Val Dice")
+    plt.xlabel("Epoch")
+    plt.ylabel("Dice")
+    plt.title("Training and Validation Dice")
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(out_dir / "dice_curve.png")
+    plt.close()
+
+
+def save_predictions(model, loader, num_samples=30, out_dir=RESULTS_DIR / "predictions"):
     out_dir.mkdir(parents=True, exist_ok=True)
     model.eval()
 
     shown = 0
+
     with torch.no_grad():
         for images, masks in loader:
             images = images.to(DEVICE, non_blocking=True)
@@ -369,60 +376,38 @@ def save_predictions(model, loader, num_samples=5, out_dir=RESULTS_DIR / "predic
                 if shown >= num_samples:
                     return
 
-                img = images[i].squeeze().cpu().numpy()
-                mask = masks[i].squeeze().cpu().numpy()
-                pred = preds[i].squeeze().cpu().numpy()
-                prob = probs[i].squeeze().cpu().numpy()
+                image_np = images[i].squeeze().cpu().numpy()
+                mask_np = masks[i].squeeze().cpu().numpy()
+                prob_np = probs[i].squeeze().cpu().numpy()
+                pred_np = preds[i].squeeze().cpu().numpy()
 
                 plt.figure(figsize=(12, 3))
 
                 plt.subplot(1, 4, 1)
-                plt.imshow(img, cmap="gray", vmin=0, vmax=1)
+                plt.imshow(image_np, cmap="gray", vmin=0, vmax=1)
                 plt.title("Input")
                 plt.axis("off")
 
                 plt.subplot(1, 4, 2)
-                plt.imshow(mask, cmap="gray")
+                plt.imshow(mask_np, cmap="gray")
                 plt.title("Ground Truth")
                 plt.axis("off")
 
                 plt.subplot(1, 4, 3)
-                plt.imshow(prob, cmap="gray", vmin=0, vmax=1)
+                plt.imshow(prob_np, cmap="gray", vmin=0, vmax=1)
                 plt.title("Probability")
                 plt.axis("off")
 
                 plt.subplot(1, 4, 4)
-                plt.imshow(pred, cmap="gray")
+                plt.imshow(pred_np, cmap="gray")
                 plt.title("Prediction")
                 plt.axis("off")
 
                 plt.tight_layout()
-                plt.savefig(out_dir / f"prediction_{shown}.png", bbox_inches="tight")
+                plt.savefig(out_dir / f"prediction_{shown}.png")
                 plt.close()
 
                 shown += 1
-
-
-def save_training_plots(history, out_dir=RESULTS_DIR):
-    plt.figure(figsize=(8, 4))
-    plt.plot(history["train_loss"], label="Train Loss")
-    plt.plot(history["val_loss"], label="Val Loss")
-    plt.xlabel("Epoch")
-    plt.ylabel("Loss")
-    plt.title("Training and Validation Loss")
-    plt.legend()
-    plt.savefig(out_dir / "loss_curve.png", bbox_inches="tight")
-    plt.close()
-
-    plt.figure(figsize=(8, 4))
-    plt.plot(history["train_dice"], label="Train Dice")
-    plt.plot(history["val_dice"], label="Val Dice")
-    plt.xlabel("Epoch")
-    plt.ylabel("Dice")
-    plt.title("Training and Validation Dice")
-    plt.legend()
-    plt.savefig(out_dir / "dice_curve.png", bbox_inches="tight")
-    plt.close()
 
 
 # =========================================================
@@ -431,7 +416,7 @@ def save_training_plots(history, out_dir=RESULTS_DIR):
 def main():
     print(f"Using data directory: {DATA_DIR}")
 
-    dataset = CellBinDBDataset(root_dir=DATA_DIR)
+    dataset = CellBinDBDataset(root_dir=DATA_DIR, target_size=TARGET_SIZE)
 
     train_indices = torch.load(TRAIN_SPLIT_FILE)
     val_indices = torch.load(VAL_SPLIT_FILE)
@@ -463,9 +448,9 @@ def main():
         pin_memory=PIN_MEMORY,
     )
 
-    print("Train size:", len(train_set))
-    print("Val size:", len(val_set))
-    print("Test size:", len(test_set))
+    print(f"Train size: {len(train_set)}")
+    print(f"Val size: {len(val_set)}")
+    print(f"Test size: {len(test_set)}")
 
     model = UNet().to(DEVICE)
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
@@ -499,9 +484,9 @@ def main():
         history["train_loss"].append(train_loss)
         history["val_loss"].append(val_loss)
 
-        for k in ["precision", "recall", "f1", "iou", "dice"]:
-            history[f"train_{k}"].append(train_metrics[k])
-            history[f"val_{k}"].append(val_metrics[k])
+        for metric_name in ["precision", "recall", "f1", "iou", "dice"]:
+            history[f"train_{metric_name}"].append(train_metrics[metric_name])
+            history[f"val_{metric_name}"].append(val_metrics[metric_name])
 
         print(f"\nEpoch {epoch + 1}/{NUM_EPOCHS}")
         print(f"Train Loss: {train_loss:.4f} | Val Loss: {val_loss:.4f}")
@@ -523,7 +508,6 @@ def main():
         if val_metrics["dice"] > best_val_dice:
             best_val_dice = val_metrics["dice"]
             epochs_without_improvement = 0
-
             torch.save(model.state_dict(), CHECKPOINT_DIR / "best_unet_model.pt")
             print("Best model saved.")
         else:
@@ -554,6 +538,7 @@ def main():
 
     summary = {
         "data_dir": DATA_DIR,
+        "target_size": TARGET_SIZE,
         "num_epochs_requested": NUM_EPOCHS,
         "early_stopping_patience": EARLY_STOPPING_PATIENCE,
         "batch_size": BATCH_SIZE,
@@ -570,7 +555,7 @@ def main():
         json.dump(history, f, indent=2)
 
     save_training_plots(history)
-    save_predictions(model, test_loader, num_samples=30)
+    save_predictions(model, test_loader, num_samples=NUM_PREDICTION_SAMPLES)
 
     print(f"Saved best model to: {CHECKPOINT_DIR / 'best_unet_model.pt'}")
     print(f"Saved metrics to: {RESULTS_DIR / 'test_metrics.json'}")
