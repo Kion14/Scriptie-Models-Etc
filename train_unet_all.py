@@ -145,6 +145,9 @@ class CellBinDBDataset(Dataset):
         img_max = img.max()
         if img_max > 0:
             img = img / img_max
+            
+        if img_max == 0 or img.std() < 1e-6:
+		    print(f"WARNING: blank image detected: {sample_dir}")
 
 
 
