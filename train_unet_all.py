@@ -113,6 +113,7 @@ class CellBinDBDataset(Dataset):
 
     def __getitem__(self, idx):
         sample_dir = self.samples[idx]
+        stain_name = os.path.basename(os.path.dirname(sample_dir))
 
         files = [
             f for f in os.listdir(sample_dir)
@@ -145,9 +146,18 @@ class CellBinDBDataset(Dataset):
         if img_max > 0:
             img = img / img_max
 
-        mask = np.array(mask_pil, dtype=np.float32)
-        mask = (mask > 0).astype(np.float32)
 
+
+
+        mask = np.array(mask_pil, dtype=np.float32)
+
+        if stain_name == "mIF":
+            # mIF heeft witte achtergrond / zwarte segmentatie, dus omdraaien
+            mask = (mask < 128).astype(np.float32)
+        else:
+            # normale masks: object = wit, achtergrond = zwart
+            mask = (mask > 0).astype(np.float32)
+    
         image_tensor = torch.from_numpy(img).unsqueeze(0).float()
         mask_tensor = torch.from_numpy(mask).unsqueeze(0).float()
 
@@ -370,7 +380,7 @@ def save_predictions(model, loader, num_samples=30, out_dir=RESULTS_DIR / "predi
 
             logits = model(images)
             probs = torch.sigmoid(logits)
-            preds = (probs > 0.5).float()
+            preds = (probs > 0.4).float()
 
             for i in range(images.shape[0]):
                 if shown >= num_samples:
