@@ -384,7 +384,7 @@ def save_predictions(model, loader, num_samples=30, out_dir=RESULTS_DIR / "predi
 
             logits = model(images)
             probs = torch.sigmoid(logits)
-            preds = (probs > 0.4).float()
+            preds = (probs > 0.5).float()
 
             for i in range(images.shape[0]):
                 if shown >= num_samples:
