@@ -103,7 +103,9 @@ class CellBinDBDataset(Dataset):
             self.samples.extend(sample_dirs)
 
         if len(self.samples) == 0:
-            raise RuntimeError(f"No sample folders found in any stain folder under: {self.root_dir}")
+            raise RuntimeError(
+                f"No sample folders found in any stain folder under: {self.root_dir}"
+            )
 
         print(f"Found {len(stain_folders)} stain folders")
         print(f"Total samples found: {len(self.samples)}")
@@ -135,6 +137,7 @@ class CellBinDBDataset(Dataset):
 
         if img_pil.mode != "L":
             img_pil = img_pil.convert("L")
+
         if mask_pil.mode != "L":
             mask_pil = mask_pil.convert("L")
 
@@ -142,15 +145,13 @@ class CellBinDBDataset(Dataset):
         mask_pil = mask_pil.resize(self.target_size, Image.NEAREST)
 
         img = np.array(img_pil, dtype=np.float32)
+
         img_max = img.max()
         if img_max > 0:
             img = img / img_max
-            
+
         if img_max == 0 or img.std() < 1e-6:
-		    print(f"WARNING: blank image detected: {sample_dir}")
-
-
-
+            print(f"WARNING: blank image detected: {sample_dir}")
 
         mask = np.array(mask_pil, dtype=np.float32)
 
@@ -160,7 +161,7 @@ class CellBinDBDataset(Dataset):
         else:
             # normale masks: object = wit, achtergrond = zwart
             mask = (mask > 0).astype(np.float32)
-    
+
         image_tensor = torch.from_numpy(img).unsqueeze(0).float()
         mask_tensor = torch.from_numpy(mask).unsqueeze(0).float()
 
