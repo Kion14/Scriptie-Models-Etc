@@ -46,9 +46,11 @@ DATA_DIR = os.environ.get(
     os.path.join(os.environ.get("TMPDIR", "."), "CellBinDB")
 )
 
-TRAIN_SPLIT_FILE = "train_indices_ALL.pt"
-VAL_SPLIT_FILE = "val_indices_ALL.pt"
-TEST_SPLIT_FILE = "test_indices_ALL.pt"
+SAMPLES_FILE = "valid_samples_ALL_clean.json"
+
+TRAIN_SPLIT_FILE = "train_indices_ALL_clean.pt"
+VAL_SPLIT_FILE = "val_indices_ALL_clean.pt"
+TEST_SPLIT_FILE = "test_indices_ALL_clean.pt"
 
 RESULTS_DIR = Path("results")
 CHECKPOINT_DIR = Path("checkpoints")
@@ -94,39 +96,26 @@ class CellBinDBDataset(Dataset):
     def __init__(self, root_dir, target_size=(256, 256)):
         self.root_dir = root_dir
         self.target_size = target_size
-        self.samples = []
 
-        if not os.path.isdir(self.root_dir):
-            raise FileNotFoundError(f"Dataset directory not found: {self.root_dir}")
+        samples_file = "valid_samples_ALL_clean.json"
 
-        stain_folders = sorted(
-            [
-                os.path.join(self.root_dir, d)
-                for d in os.listdir(self.root_dir)
-                if os.path.isdir(os.path.join(self.root_dir, d))
-            ]
-        )
-
-        if len(stain_folders) == 0:
-            raise RuntimeError(f"No stain folders found in: {self.root_dir}")
-
-        for stain_folder in stain_folders:
-            sample_dirs = sorted(
-                [
-                    os.path.join(stain_folder, d)
-                    for d in os.listdir(stain_folder)
-                    if os.path.isdir(os.path.join(stain_folder, d))
-                ]
+        if not os.path.exists(samples_file):
+            raise FileNotFoundError(
+                f"{samples_file} not found. Run the clean split script first."
             )
-            self.samples.extend(sample_dirs)
+
+        with open(samples_file, "r") as f:
+            relative_samples = json.load(f)
+
+        self.samples = [
+            os.path.join(self.root_dir, rel_path)
+            for rel_path in relative_samples
+        ]
+
+        print(f"Loaded cleaned samples: {len(self.samples)}")
 
         if len(self.samples) == 0:
-            raise RuntimeError(
-                f"No sample folders found in any stain folder under: {self.root_dir}"
-            )
-
-        print(f"Found {len(stain_folders)} stain folders")
-        print(f"Total samples found: {len(self.samples)}")
+            raise RuntimeError("No valid samples found.")
 
     def __len__(self):
         return len(self.samples)
