@@ -63,7 +63,7 @@ def identify_files(files):
             instance_file = f
         elif "mask" in name and "instancemask" not in name:
             seg_file = f
-        elif name.endswith("_img.tif") or name.endswith("_img.tiff"):
+        elif name.endswith("-img.tif") or name.endswith("-img.tiff"):
             image_file = f
 
     return image_file, instance_file, seg_file
