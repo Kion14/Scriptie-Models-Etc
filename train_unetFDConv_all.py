@@ -52,8 +52,8 @@ TRAIN_SPLIT_FILE = "train_indices_ALL_clean.pt"
 VAL_SPLIT_FILE = "val_indices_ALL_clean.pt"
 TEST_SPLIT_FILE = "test_indices_ALL_clean.pt"
 
-RESULTS_DIR = Path("results")
-CHECKPOINT_DIR = Path("checkpoints")
+RESULTS_DIR = Path("results/unetplusplus")
+CHECKPOINT_DIR = Path("checkpoints/unetplusplus")
 RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 CHECKPOINT_DIR.mkdir(parents=True, exist_ok=True)
 
