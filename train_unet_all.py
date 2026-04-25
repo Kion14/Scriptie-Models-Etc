@@ -52,10 +52,6 @@ NUM_PREDICTION_SAMPLES = 30
 # HELPERS
 # =========================================================
 def identify_files(files):
-	if "Z98106X7-x14612_y15012_w256_h256" in sample_dir:
-		print("FILES:", files)
-		print("CHOSEN IMAGE:", image_file)
-		print("CHOSEN MASK:", seg_file)
     image_file = None
     instance_file = None
     seg_file = None
@@ -63,20 +59,14 @@ def identify_files(files):
     for f in sorted(files):
         name = f.lower()
 
-        # instance mask
         if "instancemask" in name:
             instance_file = f
-
-        # segmentation mask
         elif "mask" in name and "instancemask" not in name:
             seg_file = f
-
-        # echte input image → moet eindigen op _img
-        elif name.endswith("-img.tif") or name.endswith("-img.tiff"):
+        elif name.endswith("_img.tif") or name.endswith("_img.tiff"):
             image_file = f
 
     return image_file, instance_file, seg_file
-
 
 
 # =========================================================
@@ -136,7 +126,9 @@ class CellBinDBDataset(Dataset):
 
         if image_file is None or seg_file is None:
             raise ValueError(
-                f"Could not identify image and mask in {sample_dir}. Files found: {files}"
+                f"Could not identify image and mask in {sample_dir}. "
+                f"Files found: {files}. "
+                f"Chosen image: {image_file}, chosen mask: {seg_file}"
             )
 
         image_path = os.path.join(sample_dir, image_file)
@@ -155,37 +147,36 @@ class CellBinDBDataset(Dataset):
         mask_pil = mask_pil.resize(self.target_size, Image.NEAREST)
 
         img = np.array(img_pil, dtype=np.float32)
-
         img_max = img.max()
+
         if img_max > 0:
             img = img / img_max
 
-        if img_max == 0 or img.std() < 1e-6:
-            print(f"WARNING: blank image detected: {sample_dir}")
+        mask_raw = np.array(mask_pil, dtype=np.float32)
 
-        mask = np.array(mask_pil, dtype=np.float32)
-        
-        # DEBUG BLOCK HIER
-		if img_max == 0 or img.std() < 1e-6:
-			print(f"\nWARNING: blank image detected: {sample_dir}")
-			print("Files:", files)
-			print("Chosen image:", image_file)
-			print("Chosen mask:", seg_file)
-			print("Image stats:", img.min(), img.max(), img.mean(), img.std())
-			print("Mask stats:", mask.min(), mask.max(), mask.mean(), mask.std())
+        if img_max == 0 or img.std() < 1e-6:
+            print(f"\nWARNING: blank image detected: {sample_dir}")
+            print("Files:", files)
+            print("Chosen image:", image_file)
+            print("Chosen mask:", seg_file)
+            print("Image stats:", img.min(), img.max(), img.mean(), img.std())
+            print(
+                "Raw mask stats:",
+                mask_raw.min(),
+                mask_raw.max(),
+                mask_raw.mean(),
+                mask_raw.std(),
+            )
 
         if stain_name == "mIF":
-            # mIF heeft witte achtergrond / zwarte segmentatie, dus omdraaien
-            mask = (mask < 128).astype(np.float32)
+            mask = (mask_raw < 128).astype(np.float32)
         else:
-            # normale masks: object = wit, achtergrond = zwart
-            mask = (mask > 0).astype(np.float32)
+            mask = (mask_raw > 0).astype(np.float32)
 
         image_tensor = torch.from_numpy(img).unsqueeze(0).float()
         mask_tensor = torch.from_numpy(mask).unsqueeze(0).float()
 
         return image_tensor, mask_tensor
-
 
 # =========================================================
 # MODEL
