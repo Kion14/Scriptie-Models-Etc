@@ -56,17 +56,23 @@ def identify_files(files):
     instance_file = None
     seg_file = None
 
-    for f in files:
+    for f in sorted(files):
         name = f.lower()
 
+        # instance mask
         if "instancemask" in name:
             instance_file = f
+
+        # segmentation mask
         elif "mask" in name and "instancemask" not in name:
             seg_file = f
-        elif "img" in name:
+
+        # echte input image → moet eindigen op _img
+        elif name.endswith("-img.tif") or name.endswith("-img.tiff"):
             image_file = f
 
     return image_file, instance_file, seg_file
+
 
 
 # =========================================================
