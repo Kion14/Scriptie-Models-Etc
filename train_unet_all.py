@@ -79,12 +79,26 @@ class CellBinDBDataset(Dataset):
     def __init__(self, root_dir, target_size=(256, 256)):
         self.root_dir = root_dir
         self.target_size = target_size
-        self.samples = []
 
-        with open(SAMPLES_FILE, "r") as f:
-            self.samples = json.load(f)
+        samples_file = "valid_samples_ALL_clean.json"
+
+        if not os.path.exists(samples_file):
+            raise FileNotFoundError(
+                f"{samples_file} not found. Run the clean split script first."
+            )
+
+        with open(samples_file, "r") as f:
+            relative_samples = json.load(f)
+
+        self.samples = [
+            os.path.join(self.root_dir, rel_path)
+            for rel_path in relative_samples
+        ]
 
         print(f"Loaded cleaned samples: {len(self.samples)}")
+
+        if len(self.samples) == 0:
+            raise RuntimeError("No valid samples found.")
 
     def __len__(self):
         return len(self.samples)
