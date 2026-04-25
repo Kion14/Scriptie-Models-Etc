@@ -52,6 +52,10 @@ NUM_PREDICTION_SAMPLES = 30
 # HELPERS
 # =========================================================
 def identify_files(files):
+	if "Z98106X7-x14612_y15012_w256_h256" in sample_dir:
+		print("FILES:", files)
+		print("CHOSEN IMAGE:", image_file)
+		print("CHOSEN MASK:", seg_file)
     image_file = None
     instance_file = None
     seg_file = None
@@ -160,6 +164,15 @@ class CellBinDBDataset(Dataset):
             print(f"WARNING: blank image detected: {sample_dir}")
 
         mask = np.array(mask_pil, dtype=np.float32)
+        
+        # DEBUG BLOCK HIER
+		if img_max == 0 or img.std() < 1e-6:
+			print(f"\nWARNING: blank image detected: {sample_dir}")
+			print("Files:", files)
+			print("Chosen image:", image_file)
+			print("Chosen mask:", seg_file)
+			print("Image stats:", img.min(), img.max(), img.mean(), img.std())
+			print("Mask stats:", mask.min(), mask.max(), mask.mean(), mask.std())
 
         if stain_name == "mIF":
             # mIF heeft witte achtergrond / zwarte segmentatie, dus omdraaien
