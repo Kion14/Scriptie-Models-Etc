@@ -1,0 +1,3062 @@
+[
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1074",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1074-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1074-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1074-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1091",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1091-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1091-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1091-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1092",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1092-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1092-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1092-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1093",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1093-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1093-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1093-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1161",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1161-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1161-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1161-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1180",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1180-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1180-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1180-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1181",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1181-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1181-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1181-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_123",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_123-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_123-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_123-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1249",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1249-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1249-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1249-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1270",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1270-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1270-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1270-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1275",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1275-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1275-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1275-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1276",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1276-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1276-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1276-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1278",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1278-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1278-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1278-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1360",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1360-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1360-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1360-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1445",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1445-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1445-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1445-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1446",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1446-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1446-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1446-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1447",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1447-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1447-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1447-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1448",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1448-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1448-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1448-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1511",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1511-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1511-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1511-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1512",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1512-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1512-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1512-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1522",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1522-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1522-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1522-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1534",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1534-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1534-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1534-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1621",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1621-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1621-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1621-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1708",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1708-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1708-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1708-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1960",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1960-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1960-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_1960-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2232",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2232-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2232-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2232-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2253",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2253-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2253-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2253-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2396",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2396-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2396-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2396-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2397",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2397-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2397-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2397-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2409",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2409-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2409-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2409-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2410",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2410-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2410-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2410-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2752",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2752-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2752-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2752-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2843",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2843-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2843-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2843-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2900",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2900-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2900-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_2900-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3089",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3089-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3089-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3089-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3102",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3102-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3102-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3102-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3351",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3351-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3351-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3351-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3353",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3353-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3353-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3353-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3609",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3609-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3609-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_3609-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4112",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4112-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4112-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4112-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4559",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4559-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4559-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_4559-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5233",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5233-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5233-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5233-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_548",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_548-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_548-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_548-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5753",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5753-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5753-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_5753-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_811",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_811-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_811-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_811-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_915",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_915-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_915-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_915-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_916",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_916-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_916-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_916-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_917",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_917-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_917-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_917-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_986",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_986-instancemask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_986-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_986-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/10\u00d7Genomics_DAPI/CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_987",
+    "reason": "blank image",
+    "files": [
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_987-mask.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_987-img.tif",
+      "CytAssist_FFPE_Human_Skin_Melanoma_tissue_image_987-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x16940_y8120_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x16940_y8120_w256_h256-img.tif",
+      "Y96476T7-x16940_y8120_w256_h256-instancemask.tif",
+      "Y96476T7-x16940_y8120_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x19360_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x19360_y8376_w256_h256-mask.tif",
+      "Y96476T7-x19360_y8376_w256_h256-instancemask.tif",
+      "Y96476T7-x19360_y8376_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x19616_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x19616_y10150_w256_h256-mask.tif",
+      "Y96476T7-x19616_y10150_w256_h256-instancemask.tif",
+      "Y96476T7-x19616_y10150_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x21780_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x21780_y10406_w256_h256-mask.tif",
+      "Y96476T7-x21780_y10406_w256_h256-img.tif",
+      "Y96476T7-x21780_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x21780_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x21780_y12180_w256_h256-img.tif",
+      "Y96476T7-x21780_y12180_w256_h256-mask.tif",
+      "Y96476T7-x21780_y12180_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x21780_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x21780_y8376_w256_h256-img.tif",
+      "Y96476T7-x21780_y8376_w256_h256-instancemask.tif",
+      "Y96476T7-x21780_y8376_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T7-x22036_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T7-x22036_y10406_w256_h256-img.tif",
+      "Y96476T7-x22036_y10406_w256_h256-mask.tif",
+      "Y96476T7-x22036_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x12100_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x12100_y4060_w256_h256-instancemask.tif",
+      "Y96476T8-x12100_y4060_w256_h256-img.tif",
+      "Y96476T8-x12100_y4060_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x12356_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x12356_y10150_w256_h256-instancemask.tif",
+      "Y96476T8-x12356_y10150_w256_h256-img.tif",
+      "Y96476T8-x12356_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x12356_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x12356_y4060_w256_h256-instancemask.tif",
+      "Y96476T8-x12356_y4060_w256_h256-img.tif",
+      "Y96476T8-x12356_y4060_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x14520_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x14520_y6090_w256_h256-mask.tif",
+      "Y96476T8-x14520_y6090_w256_h256-img.tif",
+      "Y96476T8-x14520_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x14776_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x14776_y10150_w256_h256-img.tif",
+      "Y96476T8-x14776_y10150_w256_h256-mask.tif",
+      "Y96476T8-x14776_y10150_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x14776_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x14776_y10406_w256_h256-img.tif",
+      "Y96476T8-x14776_y10406_w256_h256-mask.tif",
+      "Y96476T8-x14776_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x14776_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x14776_y4060_w256_h256-mask.tif",
+      "Y96476T8-x14776_y4060_w256_h256-img.tif",
+      "Y96476T8-x14776_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x14776_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x14776_y4316_w256_h256-instancemask.tif",
+      "Y96476T8-x14776_y4316_w256_h256-img.tif",
+      "Y96476T8-x14776_y4316_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x16940_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x16940_y4060_w256_h256-img.tif",
+      "Y96476T8-x16940_y4060_w256_h256-mask.tif",
+      "Y96476T8-x16940_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x16940_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x16940_y4316_w256_h256-instancemask.tif",
+      "Y96476T8-x16940_y4316_w256_h256-img.tif",
+      "Y96476T8-x16940_y4316_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x17196_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x17196_y10406_w256_h256-instancemask.tif",
+      "Y96476T8-x17196_y10406_w256_h256-img.tif",
+      "Y96476T8-x17196_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x7516_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x7516_y10150_w256_h256-mask.tif",
+      "Y96476T8-x7516_y10150_w256_h256-instancemask.tif",
+      "Y96476T8-x7516_y10150_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x7516_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x7516_y10406_w256_h256-img.tif",
+      "Y96476T8-x7516_y10406_w256_h256-instancemask.tif",
+      "Y96476T8-x7516_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x7516_y8120_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x7516_y8120_w256_h256-img.tif",
+      "Y96476T8-x7516_y8120_w256_h256-mask.tif",
+      "Y96476T8-x7516_y8120_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476T8-x9936_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476T8-x9936_y10406_w256_h256-mask.tif",
+      "Y96476T8-x9936_y10406_w256_h256-img.tif",
+      "Y96476T8-x9936_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x12100_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x12100_y6346_w256_h256-img.tif",
+      "Y96476U3-x12100_y6346_w256_h256-instancemask.tif",
+      "Y96476U3-x12100_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x12100_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x12100_y8376_w256_h256-instancemask.tif",
+      "Y96476U3-x12100_y8376_w256_h256-img.tif",
+      "Y96476U3-x12100_y8376_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x12356_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x12356_y6346_w256_h256-mask.tif",
+      "Y96476U3-x12356_y6346_w256_h256-img.tif",
+      "Y96476U3-x12356_y6346_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x12356_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x12356_y8376_w256_h256-instancemask.tif",
+      "Y96476U3-x12356_y8376_w256_h256-mask.tif",
+      "Y96476U3-x12356_y8376_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14520_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14520_y4060_w256_h256-mask.tif",
+      "Y96476U3-x14520_y4060_w256_h256-instancemask.tif",
+      "Y96476U3-x14520_y4060_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14520_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14520_y6090_w256_h256-img.tif",
+      "Y96476U3-x14520_y6090_w256_h256-instancemask.tif",
+      "Y96476U3-x14520_y6090_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14520_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14520_y6346_w256_h256-img.tif",
+      "Y96476U3-x14520_y6346_w256_h256-instancemask.tif",
+      "Y96476U3-x14520_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14776_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14776_y4060_w256_h256-mask.tif",
+      "Y96476U3-x14776_y4060_w256_h256-img.tif",
+      "Y96476U3-x14776_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14776_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14776_y4316_w256_h256-mask.tif",
+      "Y96476U3-x14776_y4316_w256_h256-img.tif",
+      "Y96476U3-x14776_y4316_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x14776_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x14776_y6346_w256_h256-instancemask.tif",
+      "Y96476U3-x14776_y6346_w256_h256-mask.tif",
+      "Y96476U3-x14776_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x16940_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x16940_y4060_w256_h256-mask.tif",
+      "Y96476U3-x16940_y4060_w256_h256-img.tif",
+      "Y96476U3-x16940_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x16940_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x16940_y4316_w256_h256-mask.tif",
+      "Y96476U3-x16940_y4316_w256_h256-instancemask.tif",
+      "Y96476U3-x16940_y4316_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x16940_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x16940_y6346_w256_h256-img.tif",
+      "Y96476U3-x16940_y6346_w256_h256-instancemask.tif",
+      "Y96476U3-x16940_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x17196_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x17196_y4060_w256_h256-instancemask.tif",
+      "Y96476U3-x17196_y4060_w256_h256-mask.tif",
+      "Y96476U3-x17196_y4060_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x17196_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x17196_y4316_w256_h256-img.tif",
+      "Y96476U3-x17196_y4316_w256_h256-instancemask.tif",
+      "Y96476U3-x17196_y4316_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x22036_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x22036_y6090_w256_h256-mask.tif",
+      "Y96476U3-x22036_y6090_w256_h256-img.tif",
+      "Y96476U3-x22036_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U3-x22036_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U3-x22036_y6346_w256_h256-mask.tif",
+      "Y96476U3-x22036_y6346_w256_h256-instancemask.tif",
+      "Y96476U3-x22036_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x19616_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x19616_y12180_w256_h256-instancemask.tif",
+      "Y96476U4-x19616_y12180_w256_h256-img.tif",
+      "Y96476U4-x19616_y12180_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x19616_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x19616_y12436_w256_h256-mask.tif",
+      "Y96476U4-x19616_y12436_w256_h256-img.tif",
+      "Y96476U4-x19616_y12436_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x21780_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x21780_y10406_w256_h256-img.tif",
+      "Y96476U4-x21780_y10406_w256_h256-instancemask.tif",
+      "Y96476U4-x21780_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x22036_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x22036_y10150_w256_h256-mask.tif",
+      "Y96476U4-x22036_y10150_w256_h256-instancemask.tif",
+      "Y96476U4-x22036_y10150_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x22036_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x22036_y10406_w256_h256-instancemask.tif",
+      "Y96476U4-x22036_y10406_w256_h256-img.tif",
+      "Y96476U4-x22036_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x24200_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x24200_y12180_w256_h256-instancemask.tif",
+      "Y96476U4-x24200_y12180_w256_h256-mask.tif",
+      "Y96476U4-x24200_y12180_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x24200_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x24200_y12436_w256_h256-mask.tif",
+      "Y96476U4-x24200_y12436_w256_h256-img.tif",
+      "Y96476U4-x24200_y12436_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x24456_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x24456_y12436_w256_h256-mask.tif",
+      "Y96476U4-x24456_y12436_w256_h256-instancemask.tif",
+      "Y96476U4-x24456_y12436_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x24456_y14466_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x24456_y14466_w256_h256-instancemask.tif",
+      "Y96476U4-x24456_y14466_w256_h256-img.tif",
+      "Y96476U4-x24456_y14466_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x9936_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x9936_y6090_w256_h256-mask.tif",
+      "Y96476U4-x9936_y6090_w256_h256-img.tif",
+      "Y96476U4-x9936_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x9936_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x9936_y6346_w256_h256-mask.tif",
+      "Y96476U4-x9936_y6346_w256_h256-instancemask.tif",
+      "Y96476U4-x9936_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x9936_y8120_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x9936_y8120_w256_h256-instancemask.tif",
+      "Y96476U4-x9936_y8120_w256_h256-img.tif",
+      "Y96476U4-x9936_y8120_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U4-x9936_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U4-x9936_y8376_w256_h256-instancemask.tif",
+      "Y96476U4-x9936_y8376_w256_h256-img.tif",
+      "Y96476U4-x9936_y8376_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x12100_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x12100_y12180_w256_h256-instancemask.tif",
+      "Y96476U7-x12100_y12180_w256_h256-mask.tif",
+      "Y96476U7-x12100_y12180_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x12100_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x12100_y12436_w256_h256-instancemask.tif",
+      "Y96476U7-x12100_y12436_w256_h256-img.tif",
+      "Y96476U7-x12100_y12436_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x12356_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x12356_y10406_w256_h256-mask.tif",
+      "Y96476U7-x12356_y10406_w256_h256-instancemask.tif",
+      "Y96476U7-x12356_y10406_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x12356_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x12356_y12180_w256_h256-mask.tif",
+      "Y96476U7-x12356_y12180_w256_h256-img.tif",
+      "Y96476U7-x12356_y12180_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x16940_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x16940_y10150_w256_h256-instancemask.tif",
+      "Y96476U7-x16940_y10150_w256_h256-img.tif",
+      "Y96476U7-x16940_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x16940_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x16940_y10406_w256_h256-instancemask.tif",
+      "Y96476U7-x16940_y10406_w256_h256-mask.tif",
+      "Y96476U7-x16940_y10406_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x17196_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x17196_y10150_w256_h256-instancemask.tif",
+      "Y96476U7-x17196_y10150_w256_h256-mask.tif",
+      "Y96476U7-x17196_y10150_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x17196_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x17196_y10406_w256_h256-img.tif",
+      "Y96476U7-x17196_y10406_w256_h256-mask.tif",
+      "Y96476U7-x17196_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7260_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7260_y10150_w256_h256-mask.tif",
+      "Y96476U7-x7260_y10150_w256_h256-img.tif",
+      "Y96476U7-x7260_y10150_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7260_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7260_y10406_w256_h256-instancemask.tif",
+      "Y96476U7-x7260_y10406_w256_h256-mask.tif",
+      "Y96476U7-x7260_y10406_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7260_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7260_y6090_w256_h256-img.tif",
+      "Y96476U7-x7260_y6090_w256_h256-mask.tif",
+      "Y96476U7-x7260_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7516_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7516_y10150_w256_h256-img.tif",
+      "Y96476U7-x7516_y10150_w256_h256-mask.tif",
+      "Y96476U7-x7516_y10150_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7516_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7516_y6090_w256_h256-mask.tif",
+      "Y96476U7-x7516_y6090_w256_h256-instancemask.tif",
+      "Y96476U7-x7516_y6090_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x7516_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x7516_y6346_w256_h256-instancemask.tif",
+      "Y96476U7-x7516_y6346_w256_h256-img.tif",
+      "Y96476U7-x7516_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x9680_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x9680_y6090_w256_h256-mask.tif",
+      "Y96476U7-x9680_y6090_w256_h256-img.tif",
+      "Y96476U7-x9680_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U7-x9680_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U7-x9680_y6346_w256_h256-instancemask.tif",
+      "Y96476U7-x9680_y6346_w256_h256-mask.tif",
+      "Y96476U7-x9680_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x12100_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x12100_y10150_w256_h256-img.tif",
+      "Y96476U8-x12100_y10150_w256_h256-instancemask.tif",
+      "Y96476U8-x12100_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x12356_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x12356_y10150_w256_h256-img.tif",
+      "Y96476U8-x12356_y10150_w256_h256-mask.tif",
+      "Y96476U8-x12356_y10150_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x12356_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x12356_y10406_w256_h256-mask.tif",
+      "Y96476U8-x12356_y10406_w256_h256-img.tif",
+      "Y96476U8-x12356_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14520_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14520_y6090_w256_h256-mask.tif",
+      "Y96476U8-x14520_y6090_w256_h256-img.tif",
+      "Y96476U8-x14520_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14520_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14520_y6346_w256_h256-img.tif",
+      "Y96476U8-x14520_y6346_w256_h256-instancemask.tif",
+      "Y96476U8-x14520_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14520_y8120_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14520_y8120_w256_h256-instancemask.tif",
+      "Y96476U8-x14520_y8120_w256_h256-img.tif",
+      "Y96476U8-x14520_y8120_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14520_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14520_y8376_w256_h256-mask.tif",
+      "Y96476U8-x14520_y8376_w256_h256-img.tif",
+      "Y96476U8-x14520_y8376_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14776_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14776_y6090_w256_h256-img.tif",
+      "Y96476U8-x14776_y6090_w256_h256-instancemask.tif",
+      "Y96476U8-x14776_y6090_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x14776_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x14776_y8376_w256_h256-img.tif",
+      "Y96476U8-x14776_y8376_w256_h256-mask.tif",
+      "Y96476U8-x14776_y8376_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x5096_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x5096_y6346_w256_h256-instancemask.tif",
+      "Y96476U8-x5096_y6346_w256_h256-mask.tif",
+      "Y96476U8-x5096_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x7260_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x7260_y10150_w256_h256-instancemask.tif",
+      "Y96476U8-x7260_y10150_w256_h256-mask.tif",
+      "Y96476U8-x7260_y10150_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x7260_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x7260_y10406_w256_h256-img.tif",
+      "Y96476U8-x7260_y10406_w256_h256-mask.tif",
+      "Y96476U8-x7260_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x7516_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x7516_y10150_w256_h256-instancemask.tif",
+      "Y96476U8-x7516_y10150_w256_h256-img.tif",
+      "Y96476U8-x7516_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x7516_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x7516_y10406_w256_h256-instancemask.tif",
+      "Y96476U8-x7516_y10406_w256_h256-mask.tif",
+      "Y96476U8-x7516_y10406_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x7516_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x7516_y8376_w256_h256-img.tif",
+      "Y96476U8-x7516_y8376_w256_h256-instancemask.tif",
+      "Y96476U8-x7516_y8376_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476U8-x9680_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476U8-x9680_y10406_w256_h256-instancemask.tif",
+      "Y96476U8-x9680_y10406_w256_h256-img.tif",
+      "Y96476U8-x9680_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x12100_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x12100_y4060_w256_h256-mask.tif",
+      "Y96476V7-x12100_y4060_w256_h256-instancemask.tif",
+      "Y96476V7-x12100_y4060_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x12100_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x12100_y4316_w256_h256-mask.tif",
+      "Y96476V7-x12100_y4316_w256_h256-instancemask.tif",
+      "Y96476V7-x12100_y4316_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x12356_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x12356_y4060_w256_h256-img.tif",
+      "Y96476V7-x12356_y4060_w256_h256-mask.tif",
+      "Y96476V7-x12356_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x12356_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x12356_y4316_w256_h256-img.tif",
+      "Y96476V7-x12356_y4316_w256_h256-mask.tif",
+      "Y96476V7-x12356_y4316_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x14520_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x14520_y4060_w256_h256-mask.tif",
+      "Y96476V7-x14520_y4060_w256_h256-instancemask.tif",
+      "Y96476V7-x14520_y4060_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x14520_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x14520_y4316_w256_h256-instancemask.tif",
+      "Y96476V7-x14520_y4316_w256_h256-mask.tif",
+      "Y96476V7-x14520_y4316_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x14776_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x14776_y4060_w256_h256-img.tif",
+      "Y96476V7-x14776_y4060_w256_h256-mask.tif",
+      "Y96476V7-x14776_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x14776_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x14776_y4316_w256_h256-instancemask.tif",
+      "Y96476V7-x14776_y4316_w256_h256-img.tif",
+      "Y96476V7-x14776_y4316_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x16940_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x16940_y4060_w256_h256-mask.tif",
+      "Y96476V7-x16940_y4060_w256_h256-img.tif",
+      "Y96476V7-x16940_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x16940_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x16940_y6090_w256_h256-img.tif",
+      "Y96476V7-x16940_y6090_w256_h256-mask.tif",
+      "Y96476V7-x16940_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x17196_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x17196_y4316_w256_h256-instancemask.tif",
+      "Y96476V7-x17196_y4316_w256_h256-mask.tif",
+      "Y96476V7-x17196_y4316_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x17196_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x17196_y6346_w256_h256-img.tif",
+      "Y96476V7-x17196_y6346_w256_h256-instancemask.tif",
+      "Y96476V7-x17196_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x4840_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x4840_y10150_w256_h256-img.tif",
+      "Y96476V7-x4840_y10150_w256_h256-instancemask.tif",
+      "Y96476V7-x4840_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x4840_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x4840_y10406_w256_h256-instancemask.tif",
+      "Y96476V7-x4840_y10406_w256_h256-img.tif",
+      "Y96476V7-x4840_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x4840_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x4840_y12180_w256_h256-instancemask.tif",
+      "Y96476V7-x4840_y12180_w256_h256-mask.tif",
+      "Y96476V7-x4840_y12180_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x4840_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x4840_y12436_w256_h256-instancemask.tif",
+      "Y96476V7-x4840_y12436_w256_h256-img.tif",
+      "Y96476V7-x4840_y12436_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x4840_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x4840_y8376_w256_h256-mask.tif",
+      "Y96476V7-x4840_y8376_w256_h256-instancemask.tif",
+      "Y96476V7-x4840_y8376_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x5096_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x5096_y10150_w256_h256-instancemask.tif",
+      "Y96476V7-x5096_y10150_w256_h256-img.tif",
+      "Y96476V7-x5096_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x5096_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x5096_y12436_w256_h256-instancemask.tif",
+      "Y96476V7-x5096_y12436_w256_h256-mask.tif",
+      "Y96476V7-x5096_y12436_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x5096_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x5096_y8376_w256_h256-instancemask.tif",
+      "Y96476V7-x5096_y8376_w256_h256-img.tif",
+      "Y96476V7-x5096_y8376_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7260_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7260_y10406_w256_h256-mask.tif",
+      "Y96476V7-x7260_y10406_w256_h256-img.tif",
+      "Y96476V7-x7260_y10406_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7260_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7260_y6090_w256_h256-img.tif",
+      "Y96476V7-x7260_y6090_w256_h256-instancemask.tif",
+      "Y96476V7-x7260_y6090_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7260_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7260_y6346_w256_h256-img.tif",
+      "Y96476V7-x7260_y6346_w256_h256-mask.tif",
+      "Y96476V7-x7260_y6346_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7260_y8120_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7260_y8120_w256_h256-mask.tif",
+      "Y96476V7-x7260_y8120_w256_h256-img.tif",
+      "Y96476V7-x7260_y8120_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7516_y10150_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7516_y10150_w256_h256-img.tif",
+      "Y96476V7-x7516_y10150_w256_h256-instancemask.tif",
+      "Y96476V7-x7516_y10150_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7516_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7516_y10406_w256_h256-img.tif",
+      "Y96476V7-x7516_y10406_w256_h256-instancemask.tif",
+      "Y96476V7-x7516_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x7516_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x7516_y6090_w256_h256-img.tif",
+      "Y96476V7-x7516_y6090_w256_h256-instancemask.tif",
+      "Y96476V7-x7516_y6090_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x9680_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x9680_y4060_w256_h256-img.tif",
+      "Y96476V7-x9680_y4060_w256_h256-instancemask.tif",
+      "Y96476V7-x9680_y4060_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x9936_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x9936_y4060_w256_h256-instancemask.tif",
+      "Y96476V7-x9936_y4060_w256_h256-img.tif",
+      "Y96476V7-x9936_y4060_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V7-x9936_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V7-x9936_y4316_w256_h256-img.tif",
+      "Y96476V7-x9936_y4316_w256_h256-mask.tif",
+      "Y96476V7-x9936_y4316_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x12100_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x12100_y12436_w256_h256-instancemask.tif",
+      "Y96476V8-x12100_y12436_w256_h256-mask.tif",
+      "Y96476V8-x12100_y12436_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x12100_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x12100_y6090_w256_h256-mask.tif",
+      "Y96476V8-x12100_y6090_w256_h256-img.tif",
+      "Y96476V8-x12100_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x12100_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x12100_y6346_w256_h256-mask.tif",
+      "Y96476V8-x12100_y6346_w256_h256-img.tif",
+      "Y96476V8-x12100_y6346_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x12356_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x12356_y6090_w256_h256-mask.tif",
+      "Y96476V8-x12356_y6090_w256_h256-img.tif",
+      "Y96476V8-x12356_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x14520_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x14520_y6090_w256_h256-img.tif",
+      "Y96476V8-x14520_y6090_w256_h256-instancemask.tif",
+      "Y96476V8-x14520_y6090_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x14776_y14210_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x14776_y14210_w256_h256-img.tif",
+      "Y96476V8-x14776_y14210_w256_h256-mask.tif",
+      "Y96476V8-x14776_y14210_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x14776_y14466_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x14776_y14466_w256_h256-img.tif",
+      "Y96476V8-x14776_y14466_w256_h256-instancemask.tif",
+      "Y96476V8-x14776_y14466_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x16940_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x16940_y6346_w256_h256-instancemask.tif",
+      "Y96476V8-x16940_y6346_w256_h256-img.tif",
+      "Y96476V8-x16940_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x17196_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x17196_y6090_w256_h256-img.tif",
+      "Y96476V8-x17196_y6090_w256_h256-mask.tif",
+      "Y96476V8-x17196_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x9680_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x9680_y6090_w256_h256-img.tif",
+      "Y96476V8-x9680_y6090_w256_h256-mask.tif",
+      "Y96476V8-x9680_y6090_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x9680_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x9680_y6346_w256_h256-instancemask.tif",
+      "Y96476V8-x9680_y6346_w256_h256-mask.tif",
+      "Y96476V8-x9680_y6346_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x9936_y12180_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x9936_y12180_w256_h256-img.tif",
+      "Y96476V8-x9936_y12180_w256_h256-mask.tif",
+      "Y96476V8-x9936_y12180_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Y96476V8-x9936_y6090_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y96476V8-x9936_y6090_w256_h256-instancemask.tif",
+      "Y96476V8-x9936_y6090_w256_h256-mask.tif",
+      "Y96476V8-x9936_y6090_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x14520_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x14520_y4060_w256_h256-instancemask.tif",
+      "Z96511T3-x14520_y4060_w256_h256-mask.tif",
+      "Z96511T3-x14520_y4060_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x14776_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x14776_y8376_w256_h256-instancemask.tif",
+      "Z96511T3-x14776_y8376_w256_h256-mask.tif",
+      "Z96511T3-x14776_y8376_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x16940_y10406_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x16940_y10406_w256_h256-img.tif",
+      "Z96511T3-x16940_y10406_w256_h256-instancemask.tif",
+      "Z96511T3-x16940_y10406_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x17196_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x17196_y4316_w256_h256-mask.tif",
+      "Z96511T3-x17196_y4316_w256_h256-instancemask.tif",
+      "Z96511T3-x17196_y4316_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x17196_y8376_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x17196_y8376_w256_h256-mask.tif",
+      "Z96511T3-x17196_y8376_w256_h256-img.tif",
+      "Z96511T3-x17196_y8376_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x19360_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x19360_y12436_w256_h256-mask.tif",
+      "Z96511T3-x19360_y12436_w256_h256-img.tif",
+      "Z96511T3-x19360_y12436_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x19616_y12436_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x19616_y12436_w256_h256-instancemask.tif",
+      "Z96511T3-x19616_y12436_w256_h256-img.tif",
+      "Z96511T3-x19616_y12436_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x4840_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x4840_y4060_w256_h256-img.tif",
+      "Z96511T3-x4840_y4060_w256_h256-mask.tif",
+      "Z96511T3-x4840_y4060_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x4840_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x4840_y4316_w256_h256-img.tif",
+      "Z96511T3-x4840_y4316_w256_h256-mask.tif",
+      "Z96511T3-x4840_y4316_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x4840_y6346_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x4840_y6346_w256_h256-img.tif",
+      "Z96511T3-x4840_y6346_w256_h256-instancemask.tif",
+      "Z96511T3-x4840_y6346_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x7516_y4060_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x7516_y4060_w256_h256-img.tif",
+      "Z96511T3-x7516_y4060_w256_h256-instancemask.tif",
+      "Z96511T3-x7516_y4060_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z96511T3-x7516_y4316_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z96511T3-x7516_y4316_w256_h256-mask.tif",
+      "Z96511T3-x7516_y4316_w256_h256-img.tif",
+      "Z96511T3-x7516_y4316_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x10133_y14693_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x10133_y14693_w256_h256-mask.tif",
+      "Z97923Y8-x10133_y14693_w256_h256-img.tif",
+      "Z97923Y8-x10133_y14693_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x10133_y14949_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x10133_y14949_w256_h256-mask.tif",
+      "Z97923Y8-x10133_y14949_w256_h256-img.tif",
+      "Z97923Y8-x10133_y14949_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x10389_y14949_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x10389_y14949_w256_h256-mask.tif",
+      "Z97923Y8-x10389_y14949_w256_h256-instancemask.tif",
+      "Z97923Y8-x10389_y14949_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x4808_y18596_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x4808_y18596_w256_h256-img.tif",
+      "Z97923Y8-x4808_y18596_w256_h256-instancemask.tif",
+      "Z97923Y8-x4808_y18596_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x4808_y18852_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x4808_y18852_w256_h256-instancemask.tif",
+      "Z97923Y8-x4808_y18852_w256_h256-img.tif",
+      "Z97923Y8-x4808_y18852_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x5064_y18596_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x5064_y18596_w256_h256-mask.tif",
+      "Z97923Y8-x5064_y18596_w256_h256-img.tif",
+      "Z97923Y8-x5064_y18596_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z97923Y8-x5064_y18852_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z97923Y8-x5064_y18852_w256_h256-mask.tif",
+      "Z97923Y8-x5064_y18852_w256_h256-img.tif",
+      "Z97923Y8-x5064_y18852_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x14356_y14756_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x14356_y14756_w256_h256-instancemask.tif",
+      "Z98106X7-x14356_y14756_w256_h256-mask.tif",
+      "Z98106X7-x14356_y14756_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x14356_y15012_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x14356_y15012_w256_h256-instancemask.tif",
+      "Z98106X7-x14356_y15012_w256_h256-mask.tif",
+      "Z98106X7-x14356_y15012_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x14612_y14756_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x14612_y14756_w256_h256-img.tif",
+      "Z98106X7-x14612_y14756_w256_h256-instancemask.tif",
+      "Z98106X7-x14612_y14756_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x14612_y15012_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x14612_y15012_w256_h256-mask.tif",
+      "Z98106X7-x14612_y15012_w256_h256-instancemask.tif",
+      "Z98106X7-x14612_y15012_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x17671_y13756_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x17671_y13756_w256_h256-mask.tif",
+      "Z98106X7-x17671_y13756_w256_h256-instancemask.tif",
+      "Z98106X7-x17671_y13756_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x17671_y14012_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x17671_y14012_w256_h256-mask.tif",
+      "Z98106X7-x17671_y14012_w256_h256-img.tif",
+      "Z98106X7-x17671_y14012_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x17927_y13756_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x17927_y13756_w256_h256-mask.tif",
+      "Z98106X7-x17927_y13756_w256_h256-img.tif",
+      "Z98106X7-x17927_y13756_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x17927_y14012_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x17927_y14012_w256_h256-instancemask.tif",
+      "Z98106X7-x17927_y14012_w256_h256-img.tif",
+      "Z98106X7-x17927_y14012_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x18160_y7556_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x18160_y7556_w256_h256-img.tif",
+      "Z98106X7-x18160_y7556_w256_h256-mask.tif",
+      "Z98106X7-x18160_y7556_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x18160_y7812_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x18160_y7812_w256_h256-mask.tif",
+      "Z98106X7-x18160_y7812_w256_h256-instancemask.tif",
+      "Z98106X7-x18160_y7812_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x18416_y7556_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x18416_y7556_w256_h256-img.tif",
+      "Z98106X7-x18416_y7556_w256_h256-mask.tif",
+      "Z98106X7-x18416_y7556_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/DAPI/Z98106X7-x18416_y7812_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98106X7-x18416_y7812_w256_h256-instancemask.tif",
+      "Z98106X7-x18416_y7812_w256_h256-mask.tif",
+      "Z98106X7-x18416_y7812_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/mIF/X98655X5-x10731_y17602_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98655X5-x10731_y17602_w256_h256-instancemask.tif",
+      "X98655X5-x10731_y17602_w256_h256-img.tif",
+      "X98655X5-x10731_y17602_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/mIF/X98655X5-x13515_y8897_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98655X5-x13515_y8897_w256_h256-mask.tif",
+      "X98655X5-x13515_y8897_w256_h256-img.tif",
+      "X98655X5-x13515_y8897_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/mIF/X98655X5-x16086_y11228_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98655X5-x16086_y11228_w256_h256-mask.tif",
+      "X98655X5-x16086_y11228_w256_h256-instancemask.tif",
+      "X98655X5-x16086_y11228_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799998926YI_Y8-x6917_y21587_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799998926YI_Y8-x6917_y21587_w256_h256-mask.tif",
+      "HH799998926YI_Y8-x6917_y21587_w256_h256-img.tif",
+      "HH799998926YI_Y8-x6917_y21587_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799998926YI_Y8-x6917_y21843_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799998926YI_Y8-x6917_y21843_w256_h256-img.tif",
+      "HH799998926YI_Y8-x6917_y21843_w256_h256-instancemask.tif",
+      "HH799998926YI_Y8-x6917_y21843_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799998926YI_Y8-x7173_y21587_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799998926YI_Y8-x7173_y21587_w256_h256-img.tif",
+      "HH799998926YI_Y8-x7173_y21587_w256_h256-mask.tif",
+      "HH799998926YI_Y8-x7173_y21587_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799998926YI_Y8-x7173_y21843_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799998926YI_Y8-x7173_y21843_w256_h256-mask.tif",
+      "HH799998926YI_Y8-x7173_y21843_w256_h256-instancemask.tif",
+      "HH799998926YI_Y8-x7173_y21843_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999089GI_U8-x14385_y9256_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999089GI_U8-x14385_y9256_w256_h256-instancemask.tif",
+      "HH799999089GI_U8-x14385_y9256_w256_h256-img.tif",
+      "HH799999089GI_U8-x14385_y9256_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999089GI_U8-x14385_y9512_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999089GI_U8-x14385_y9512_w256_h256-img.tif",
+      "HH799999089GI_U8-x14385_y9512_w256_h256-instancemask.tif",
+      "HH799999089GI_U8-x14385_y9512_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999089GI_U8-x14641_y9256_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999089GI_U8-x14641_y9256_w256_h256-instancemask.tif",
+      "HH799999089GI_U8-x14641_y9256_w256_h256-img.tif",
+      "HH799999089GI_U8-x14641_y9256_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999089GI_U8-x14641_y9512_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999089GI_U8-x14641_y9512_w256_h256-instancemask.tif",
+      "HH799999089GI_U8-x14641_y9512_w256_h256-mask.tif",
+      "HH799999089GI_U8-x14641_y9512_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x15016_y15492_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x15016_y15492_w256_h256-instancemask.tif",
+      "HH799999164YO_W4-x15016_y15492_w256_h256-mask.tif",
+      "HH799999164YO_W4-x15016_y15492_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x15016_y15748_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x15016_y15748_w256_h256-instancemask.tif",
+      "HH799999164YO_W4-x15016_y15748_w256_h256-img.tif",
+      "HH799999164YO_W4-x15016_y15748_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x15272_y15492_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x15272_y15492_w256_h256-img.tif",
+      "HH799999164YO_W4-x15272_y15492_w256_h256-instancemask.tif",
+      "HH799999164YO_W4-x15272_y15492_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x15272_y15748_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x15272_y15748_w256_h256-mask.tif",
+      "HH799999164YO_W4-x15272_y15748_w256_h256-img.tif",
+      "HH799999164YO_W4-x15272_y15748_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x17613_y13909_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x17613_y13909_w256_h256-mask.tif",
+      "HH799999164YO_W4-x17613_y13909_w256_h256-img.tif",
+      "HH799999164YO_W4-x17613_y13909_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x17613_y14165_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x17613_y14165_w256_h256-instancemask.tif",
+      "HH799999164YO_W4-x17613_y14165_w256_h256-img.tif",
+      "HH799999164YO_W4-x17613_y14165_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x17869_y13909_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x17869_y13909_w256_h256-img.tif",
+      "HH799999164YO_W4-x17869_y13909_w256_h256-mask.tif",
+      "HH799999164YO_W4-x17869_y13909_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999164YO_W4-x17869_y14165_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999164YO_W4-x17869_y14165_w256_h256-mask.tif",
+      "HH799999164YO_W4-x17869_y14165_w256_h256-instancemask.tif",
+      "HH799999164YO_W4-x17869_y14165_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999238YI_V8-x14382_y13178_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999238YI_V8-x14382_y13178_w256_h256-img.tif",
+      "HH799999238YI_V8-x14382_y13178_w256_h256-mask.tif",
+      "HH799999238YI_V8-x14382_y13178_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999238YI_V8-x14382_y13434_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999238YI_V8-x14382_y13434_w256_h256-img.tif",
+      "HH799999238YI_V8-x14382_y13434_w256_h256-mask.tif",
+      "HH799999238YI_V8-x14382_y13434_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999238YI_V8-x14638_y13178_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999238YI_V8-x14638_y13178_w256_h256-mask.tif",
+      "HH799999238YI_V8-x14638_y13178_w256_h256-img.tif",
+      "HH799999238YI_V8-x14638_y13178_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999238YI_V8-x14638_y13434_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999238YI_V8-x14638_y13434_w256_h256-mask.tif",
+      "HH799999238YI_V8-x14638_y13434_w256_h256-instancemask.tif",
+      "HH799999238YI_V8-x14638_y13434_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999240YI_U4-x12235_y8957_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999240YI_U4-x12235_y8957_w256_h256-img.tif",
+      "HH799999240YI_U4-x12235_y8957_w256_h256-instancemask.tif",
+      "HH799999240YI_U4-x12235_y8957_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999240YI_U4-x12235_y9213_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999240YI_U4-x12235_y9213_w256_h256-mask.tif",
+      "HH799999240YI_U4-x12235_y9213_w256_h256-img.tif",
+      "HH799999240YI_U4-x12235_y9213_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999240YI_U4-x12491_y8957_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999240YI_U4-x12491_y8957_w256_h256-instancemask.tif",
+      "HH799999240YI_U4-x12491_y8957_w256_h256-img.tif",
+      "HH799999240YI_U4-x12491_y8957_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999240YI_U4-x12491_y9213_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999240YI_U4-x12491_y9213_w256_h256-mask.tif",
+      "HH799999240YI_U4-x12491_y9213_w256_h256-instancemask.tif",
+      "HH799999240YI_U4-x12491_y9213_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999241YI_U5-x13606_y5243_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999241YI_U5-x13606_y5243_w256_h256-img.tif",
+      "HH799999241YI_U5-x13606_y5243_w256_h256-instancemask.tif",
+      "HH799999241YI_U5-x13606_y5243_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999241YI_U5-x13606_y5499_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999241YI_U5-x13606_y5499_w256_h256-instancemask.tif",
+      "HH799999241YI_U5-x13606_y5499_w256_h256-img.tif",
+      "HH799999241YI_U5-x13606_y5499_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999241YI_U5-x13862_y5243_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999241YI_U5-x13862_y5243_w256_h256-mask.tif",
+      "HH799999241YI_U5-x13862_y5243_w256_h256-img.tif",
+      "HH799999241YI_U5-x13862_y5243_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999241YI_U5-x13862_y5499_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999241YI_U5-x13862_y5499_w256_h256-img.tif",
+      "HH799999241YI_U5-x13862_y5499_w256_h256-mask.tif",
+      "HH799999241YI_U5-x13862_y5499_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999244YI_U5-x10202_y15315_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999244YI_U5-x10202_y15315_w256_h256-instancemask.tif",
+      "HH799999244YI_U5-x10202_y15315_w256_h256-mask.tif",
+      "HH799999244YI_U5-x10202_y15315_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999244YI_U5-x10202_y15571_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999244YI_U5-x10202_y15571_w256_h256-mask.tif",
+      "HH799999244YI_U5-x10202_y15571_w256_h256-img.tif",
+      "HH799999244YI_U5-x10202_y15571_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999244YI_U5-x10458_y15315_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999244YI_U5-x10458_y15315_w256_h256-mask.tif",
+      "HH799999244YI_U5-x10458_y15315_w256_h256-img.tif",
+      "HH799999244YI_U5-x10458_y15315_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999244YI_U5-x10458_y15571_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999244YI_U5-x10458_y15571_w256_h256-img.tif",
+      "HH799999244YI_U5-x10458_y15571_w256_h256-instancemask.tif",
+      "HH799999244YI_U5-x10458_y15571_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x15097_y2897_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x15097_y2897_w256_h256-mask.tif",
+      "HH799999269YO_X8-x15097_y2897_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x15097_y2897_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x15097_y3153_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x15097_y3153_w256_h256-mask.tif",
+      "HH799999269YO_X8-x15097_y3153_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x15097_y3153_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x15353_y2897_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x15353_y2897_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x15353_y2897_w256_h256-mask.tif",
+      "HH799999269YO_X8-x15353_y2897_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x15353_y3153_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x15353_y3153_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x15353_y3153_w256_h256-img.tif",
+      "HH799999269YO_X8-x15353_y3153_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4336_y11545_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4336_y11545_w256_h256-img.tif",
+      "HH799999269YO_X8-x4336_y11545_w256_h256-mask.tif",
+      "HH799999269YO_X8-x4336_y11545_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4336_y11801_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4336_y11801_w256_h256-img.tif",
+      "HH799999269YO_X8-x4336_y11801_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x4336_y11801_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4592_y11545_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4592_y11545_w256_h256-mask.tif",
+      "HH799999269YO_X8-x4592_y11545_w256_h256-img.tif",
+      "HH799999269YO_X8-x4592_y11545_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4592_y11801_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4592_y11801_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x4592_y11801_w256_h256-img.tif",
+      "HH799999269YO_X8-x4592_y11801_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4941_y13493_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4941_y13493_w256_h256-mask.tif",
+      "HH799999269YO_X8-x4941_y13493_w256_h256-img.tif",
+      "HH799999269YO_X8-x4941_y13493_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x4941_y13749_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x4941_y13749_w256_h256-img.tif",
+      "HH799999269YO_X8-x4941_y13749_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x4941_y13749_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x5197_y13493_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x5197_y13493_w256_h256-mask.tif",
+      "HH799999269YO_X8-x5197_y13493_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x5197_y13493_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/HH799999269YO_X8-x5197_y13749_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "HH799999269YO_X8-x5197_y13749_w256_h256-mask.tif",
+      "HH799999269YO_X8-x5197_y13749_w256_h256-instancemask.tif",
+      "HH799999269YO_X8-x5197_y13749_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98127U4-x10963_y8023_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98127U4-x10963_y8023_w256_h256-instancemask.tif",
+      "W98127U4-x10963_y8023_w256_h256-mask.tif",
+      "W98127U4-x10963_y8023_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98127U4-x10963_y8279_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98127U4-x10963_y8279_w256_h256-img.tif",
+      "W98127U4-x10963_y8279_w256_h256-instancemask.tif",
+      "W98127U4-x10963_y8279_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98127U4-x11219_y8023_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98127U4-x11219_y8023_w256_h256-instancemask.tif",
+      "W98127U4-x11219_y8023_w256_h256-img.tif",
+      "W98127U4-x11219_y8023_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98127U4-x11219_y8279_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98127U4-x11219_y8279_w256_h256-mask.tif",
+      "W98127U4-x11219_y8279_w256_h256-instancemask.tif",
+      "W98127U4-x11219_y8279_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x10862_y7824_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x10862_y7824_w256_h256-mask.tif",
+      "W98432V3-x10862_y7824_w256_h256-instancemask.tif",
+      "W98432V3-x10862_y7824_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x10862_y8080_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x10862_y8080_w256_h256-img.tif",
+      "W98432V3-x10862_y8080_w256_h256-instancemask.tif",
+      "W98432V3-x10862_y8080_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x11118_y7824_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x11118_y7824_w256_h256-mask.tif",
+      "W98432V3-x11118_y7824_w256_h256-img.tif",
+      "W98432V3-x11118_y7824_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x11118_y8080_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x11118_y8080_w256_h256-instancemask.tif",
+      "W98432V3-x11118_y8080_w256_h256-mask.tif",
+      "W98432V3-x11118_y8080_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x12823_y14227_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x12823_y14227_w256_h256-img.tif",
+      "W98432V3-x12823_y14227_w256_h256-instancemask.tif",
+      "W98432V3-x12823_y14227_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x12823_y14483_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x12823_y14483_w256_h256-img.tif",
+      "W98432V3-x12823_y14483_w256_h256-instancemask.tif",
+      "W98432V3-x12823_y14483_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x13079_y14227_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x13079_y14227_w256_h256-instancemask.tif",
+      "W98432V3-x13079_y14227_w256_h256-img.tif",
+      "W98432V3-x13079_y14227_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/W98432V3-x13079_y14483_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "W98432V3-x13079_y14483_w256_h256-mask.tif",
+      "W98432V3-x13079_y14483_w256_h256-img.tif",
+      "W98432V3-x13079_y14483_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98471Y3-x10169_y10227_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98471Y3-x10169_y10227_w256_h256-mask.tif",
+      "X98471Y3-x10169_y10227_w256_h256-img.tif",
+      "X98471Y3-x10169_y10227_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98471Y3-x10169_y10483_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98471Y3-x10169_y10483_w256_h256-img.tif",
+      "X98471Y3-x10169_y10483_w256_h256-instancemask.tif",
+      "X98471Y3-x10169_y10483_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98471Y3-x9913_y10227_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98471Y3-x9913_y10227_w256_h256-instancemask.tif",
+      "X98471Y3-x9913_y10227_w256_h256-mask.tif",
+      "X98471Y3-x9913_y10227_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98471Y3-x9913_y10483_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98471Y3-x9913_y10483_w256_h256-img.tif",
+      "X98471Y3-x9913_y10483_w256_h256-instancemask.tif",
+      "X98471Y3-x9913_y10483_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10032_y11405_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10032_y11405_w256_h256-img.tif",
+      "X98668W8-x10032_y11405_w256_h256-mask.tif",
+      "X98668W8-x10032_y11405_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10032_y11661_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10032_y11661_w256_h256-mask.tif",
+      "X98668W8-x10032_y11661_w256_h256-img.tif",
+      "X98668W8-x10032_y11661_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10151_y9176_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10151_y9176_w256_h256-instancemask.tif",
+      "X98668W8-x10151_y9176_w256_h256-img.tif",
+      "X98668W8-x10151_y9176_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10151_y9432_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10151_y9432_w256_h256-img.tif",
+      "X98668W8-x10151_y9432_w256_h256-mask.tif",
+      "X98668W8-x10151_y9432_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10407_y9176_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10407_y9176_w256_h256-mask.tif",
+      "X98668W8-x10407_y9176_w256_h256-img.tif",
+      "X98668W8-x10407_y9176_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10407_y9432_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10407_y9432_w256_h256-instancemask.tif",
+      "X98668W8-x10407_y9432_w256_h256-img.tif",
+      "X98668W8-x10407_y9432_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10546_y10381_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10546_y10381_w256_h256-img.tif",
+      "X98668W8-x10546_y10381_w256_h256-instancemask.tif",
+      "X98668W8-x10546_y10381_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10546_y10637_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10546_y10637_w256_h256-img.tif",
+      "X98668W8-x10546_y10637_w256_h256-mask.tif",
+      "X98668W8-x10546_y10637_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10802_y10381_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10802_y10381_w256_h256-instancemask.tif",
+      "X98668W8-x10802_y10381_w256_h256-img.tif",
+      "X98668W8-x10802_y10381_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x10802_y10637_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x10802_y10637_w256_h256-mask.tif",
+      "X98668W8-x10802_y10637_w256_h256-img.tif",
+      "X98668W8-x10802_y10637_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x9776_y11405_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x9776_y11405_w256_h256-mask.tif",
+      "X98668W8-x9776_y11405_w256_h256-img.tif",
+      "X98668W8-x9776_y11405_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/X98668W8-x9776_y11661_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "X98668W8-x9776_y11661_w256_h256-instancemask.tif",
+      "X98668W8-x9776_y11661_w256_h256-mask.tif",
+      "X98668W8-x9776_y11661_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x8350_y5096_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x8350_y5096_w256_h256-img.tif",
+      "Y98386U5-x8350_y5096_w256_h256-instancemask.tif",
+      "Y98386U5-x8350_y5096_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x8350_y5352_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x8350_y5352_w256_h256-instancemask.tif",
+      "Y98386U5-x8350_y5352_w256_h256-mask.tif",
+      "Y98386U5-x8350_y5352_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x8606_y5096_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x8606_y5096_w256_h256-img.tif",
+      "Y98386U5-x8606_y5096_w256_h256-instancemask.tif",
+      "Y98386U5-x8606_y5096_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x8606_y5352_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x8606_y5352_w256_h256-instancemask.tif",
+      "Y98386U5-x8606_y5352_w256_h256-mask.tif",
+      "Y98386U5-x8606_y5352_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x9070_y11673_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x9070_y11673_w256_h256-mask.tif",
+      "Y98386U5-x9070_y11673_w256_h256-img.tif",
+      "Y98386U5-x9070_y11673_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U5-x9326_y11673_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U5-x9326_y11673_w256_h256-mask.tif",
+      "Y98386U5-x9326_y11673_w256_h256-img.tif",
+      "Y98386U5-x9326_y11673_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x16387_y14478_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x16387_y14478_w256_h256-img.tif",
+      "Y98386U6-x16387_y14478_w256_h256-mask.tif",
+      "Y98386U6-x16387_y14478_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x16387_y14734_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x16387_y14734_w256_h256-img.tif",
+      "Y98386U6-x16387_y14734_w256_h256-instancemask.tif",
+      "Y98386U6-x16387_y14734_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x16643_y14478_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x16643_y14478_w256_h256-instancemask.tif",
+      "Y98386U6-x16643_y14478_w256_h256-mask.tif",
+      "Y98386U6-x16643_y14478_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x16643_y14734_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x16643_y14734_w256_h256-instancemask.tif",
+      "Y98386U6-x16643_y14734_w256_h256-mask.tif",
+      "Y98386U6-x16643_y14734_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x18342_y15188_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x18342_y15188_w256_h256-img.tif",
+      "Y98386U6-x18342_y15188_w256_h256-instancemask.tif",
+      "Y98386U6-x18342_y15188_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x18342_y15444_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x18342_y15444_w256_h256-instancemask.tif",
+      "Y98386U6-x18342_y15444_w256_h256-img.tif",
+      "Y98386U6-x18342_y15444_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x18598_y15188_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x18598_y15188_w256_h256-mask.tif",
+      "Y98386U6-x18598_y15188_w256_h256-instancemask.tif",
+      "Y98386U6-x18598_y15188_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98386U6-x18598_y15444_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98386U6-x18598_y15444_w256_h256-img.tif",
+      "Y98386U6-x18598_y15444_w256_h256-mask.tif",
+      "Y98386U6-x18598_y15444_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98397V8-x14530_y7678_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98397V8-x14530_y7678_w256_h256-mask.tif",
+      "Y98397V8-x14530_y7678_w256_h256-instancemask.tif",
+      "Y98397V8-x14530_y7678_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98397V8-x14530_y7934_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98397V8-x14530_y7934_w256_h256-instancemask.tif",
+      "Y98397V8-x14530_y7934_w256_h256-img.tif",
+      "Y98397V8-x14530_y7934_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98397V8-x14786_y7678_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98397V8-x14786_y7678_w256_h256-img.tif",
+      "Y98397V8-x14786_y7678_w256_h256-instancemask.tif",
+      "Y98397V8-x14786_y7678_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98397V8-x14786_y7934_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98397V8-x14786_y7934_w256_h256-img.tif",
+      "Y98397V8-x14786_y7934_w256_h256-mask.tif",
+      "Y98397V8-x14786_y7934_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x13330_y11706_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x13330_y11706_w256_h256-instancemask.tif",
+      "Y98987Z4-x13330_y11706_w256_h256-mask.tif",
+      "Y98987Z4-x13330_y11706_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x13330_y11962_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x13330_y11962_w256_h256-img.tif",
+      "Y98987Z4-x13330_y11962_w256_h256-mask.tif",
+      "Y98987Z4-x13330_y11962_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x13586_y11706_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x13586_y11706_w256_h256-img.tif",
+      "Y98987Z4-x13586_y11706_w256_h256-mask.tif",
+      "Y98987Z4-x13586_y11706_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x13586_y11962_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x13586_y11962_w256_h256-img.tif",
+      "Y98987Z4-x13586_y11962_w256_h256-instancemask.tif",
+      "Y98987Z4-x13586_y11962_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x19476_y5772_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x19476_y5772_w256_h256-mask.tif",
+      "Y98987Z4-x19476_y5772_w256_h256-instancemask.tif",
+      "Y98987Z4-x19476_y5772_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x19476_y6028_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x19476_y6028_w256_h256-instancemask.tif",
+      "Y98987Z4-x19476_y6028_w256_h256-mask.tif",
+      "Y98987Z4-x19476_y6028_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x19732_y5772_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x19732_y5772_w256_h256-instancemask.tif",
+      "Y98987Z4-x19732_y5772_w256_h256-img.tif",
+      "Y98987Z4-x19732_y5772_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Y98987Z4-x19732_y6028_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Y98987Z4-x19732_y6028_w256_h256-img.tif",
+      "Y98987Z4-x19732_y6028_w256_h256-instancemask.tif",
+      "Y98987Z4-x19732_y6028_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x6997_y5678_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x6997_y5678_w256_h256-instancemask.tif",
+      "Z98103Z7-x6997_y5678_w256_h256-mask.tif",
+      "Z98103Z7-x6997_y5678_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x6997_y5934_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x6997_y5934_w256_h256-mask.tif",
+      "Z98103Z7-x6997_y5934_w256_h256-instancemask.tif",
+      "Z98103Z7-x6997_y5934_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x7253_y5678_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x7253_y5678_w256_h256-instancemask.tif",
+      "Z98103Z7-x7253_y5678_w256_h256-img.tif",
+      "Z98103Z7-x7253_y5678_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x7253_y5934_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x7253_y5934_w256_h256-instancemask.tif",
+      "Z98103Z7-x7253_y5934_w256_h256-img.tif",
+      "Z98103Z7-x7253_y5934_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x8351_y6463_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x8351_y6463_w256_h256-mask.tif",
+      "Z98103Z7-x8351_y6463_w256_h256-img.tif",
+      "Z98103Z7-x8351_y6463_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x8351_y6719_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x8351_y6719_w256_h256-img.tif",
+      "Z98103Z7-x8351_y6719_w256_h256-instancemask.tif",
+      "Z98103Z7-x8351_y6719_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x8607_y6463_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x8607_y6463_w256_h256-mask.tif",
+      "Z98103Z7-x8607_y6463_w256_h256-img.tif",
+      "Z98103Z7-x8607_y6463_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98103Z7-x8607_y6719_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98103Z7-x8607_y6719_w256_h256-mask.tif",
+      "Z98103Z7-x8607_y6719_w256_h256-instancemask.tif",
+      "Z98103Z7-x8607_y6719_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98105W5-x4114_y12237_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98105W5-x4114_y12237_w256_h256-mask.tif",
+      "Z98105W5-x4114_y12237_w256_h256-instancemask.tif",
+      "Z98105W5-x4114_y12237_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98105W5-x4114_y12493_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98105W5-x4114_y12493_w256_h256-mask.tif",
+      "Z98105W5-x4114_y12493_w256_h256-img.tif",
+      "Z98105W5-x4114_y12493_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98105W5-x4370_y12237_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98105W5-x4370_y12237_w256_h256-mask.tif",
+      "Z98105W5-x4370_y12237_w256_h256-instancemask.tif",
+      "Z98105W5-x4370_y12237_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98105W5-x4370_y12493_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98105W5-x4370_y12493_w256_h256-img.tif",
+      "Z98105W5-x4370_y12493_w256_h256-mask.tif",
+      "Z98105W5-x4370_y12493_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x10024_y15352_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x10024_y15352_w256_h256-instancemask.tif",
+      "Z98801V5-x10024_y15352_w256_h256-img.tif",
+      "Z98801V5-x10024_y15352_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x10024_y15608_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x10024_y15608_w256_h256-img.tif",
+      "Z98801V5-x10024_y15608_w256_h256-mask.tif",
+      "Z98801V5-x10024_y15608_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15087_y11785_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15087_y11785_w256_h256-img.tif",
+      "Z98801V5-x15087_y11785_w256_h256-mask.tif",
+      "Z98801V5-x15087_y11785_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15087_y12041_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15087_y12041_w256_h256-instancemask.tif",
+      "Z98801V5-x15087_y12041_w256_h256-img.tif",
+      "Z98801V5-x15087_y12041_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15153_y13890_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15153_y13890_w256_h256-img.tif",
+      "Z98801V5-x15153_y13890_w256_h256-instancemask.tif",
+      "Z98801V5-x15153_y13890_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15153_y14146_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15153_y14146_w256_h256-mask.tif",
+      "Z98801V5-x15153_y14146_w256_h256-instancemask.tif",
+      "Z98801V5-x15153_y14146_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15343_y11785_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15343_y11785_w256_h256-img.tif",
+      "Z98801V5-x15343_y11785_w256_h256-mask.tif",
+      "Z98801V5-x15343_y11785_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15343_y12041_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15343_y12041_w256_h256-instancemask.tif",
+      "Z98801V5-x15343_y12041_w256_h256-mask.tif",
+      "Z98801V5-x15343_y12041_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x15409_y13890_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x15409_y13890_w256_h256-mask.tif",
+      "Z98801V5-x15409_y13890_w256_h256-instancemask.tif",
+      "Z98801V5-x15409_y13890_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x18158_y14410_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x18158_y14410_w256_h256-img.tif",
+      "Z98801V5-x18158_y14410_w256_h256-mask.tif",
+      "Z98801V5-x18158_y14410_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x18158_y14666_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x18158_y14666_w256_h256-mask.tif",
+      "Z98801V5-x18158_y14666_w256_h256-instancemask.tif",
+      "Z98801V5-x18158_y14666_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x18414_y14410_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x18414_y14410_w256_h256-mask.tif",
+      "Z98801V5-x18414_y14410_w256_h256-instancemask.tif",
+      "Z98801V5-x18414_y14410_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x18414_y14666_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x18414_y14666_w256_h256-mask.tif",
+      "Z98801V5-x18414_y14666_w256_h256-img.tif",
+      "Z98801V5-x18414_y14666_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9649_y13636_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9649_y13636_w256_h256-img.tif",
+      "Z98801V5-x9649_y13636_w256_h256-instancemask.tif",
+      "Z98801V5-x9649_y13636_w256_h256-mask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9649_y13892_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9649_y13892_w256_h256-mask.tif",
+      "Z98801V5-x9649_y13892_w256_h256-instancemask.tif",
+      "Z98801V5-x9649_y13892_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9768_y15352_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9768_y15352_w256_h256-mask.tif",
+      "Z98801V5-x9768_y15352_w256_h256-img.tif",
+      "Z98801V5-x9768_y15352_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9768_y15608_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9768_y15608_w256_h256-img.tif",
+      "Z98801V5-x9768_y15608_w256_h256-mask.tif",
+      "Z98801V5-x9768_y15608_w256_h256-instancemask.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9905_y13636_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9905_y13636_w256_h256-instancemask.tif",
+      "Z98801V5-x9905_y13636_w256_h256-mask.tif",
+      "Z98801V5-x9905_y13636_w256_h256-img.tif"
+    ]
+  },
+  {
+    "sample_dir": "/home/kion/AA Scriptie/CellBinDB/ssDNA/Z98801V5-x9905_y13892_w256_h256",
+    "reason": "blank image",
+    "files": [
+      "Z98801V5-x9905_y13892_w256_h256-instancemask.tif",
+      "Z98801V5-x9905_y13892_w256_h256-img.tif",
+      "Z98801V5-x9905_y13892_w256_h256-mask.tif"
+    ]
+  }
+]
