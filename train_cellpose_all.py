@@ -49,6 +49,18 @@ def identify_files(files):
     return image_file, instance_file, seg_file
 
 
+def relabel_instance_mask(mask):
+    unique_vals = np.unique(mask)
+    unique_vals = unique_vals[unique_vals != 0]
+
+    relabeled = np.zeros_like(mask, dtype=np.uint16)
+
+    for new_id, old_id in enumerate(unique_vals, start=1):
+        relabeled[mask == old_id] = new_id
+
+    return relabeled
+
+
 def load_image_and_instance_mask(sample_dir):
     files = [
         f for f in os.listdir(sample_dir)
@@ -77,6 +89,12 @@ def load_image_and_instance_mask(sample_dir):
         img = img / img.max()
 
     mask = np.array(mask_pil, dtype=np.uint16)
+    mask = relabel_instance_mask(mask)
+
+    if len(np.unique(mask)) <= 1:
+        print(f"WARNING: empty instance mask after relabeling: {sample_dir}")
+
+    img = img[..., np.newaxis]
 
     return img, mask
 
