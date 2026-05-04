@@ -136,10 +136,7 @@ def main():
 
     print("Training Cellpose model...")
 
-    model = models.CellposeModel(
-        gpu=True,
-        model_type="cyto"
-    )
+    model = models.CellposeModel(gpu=True)
 
     model_path = train.train_seg(
         model.net,
@@ -147,7 +144,6 @@ def main():
         train_labels=train_masks,
         test_data=val_images,
         test_labels=val_masks,
-        channels=[0, 0],
         save_path=str(CHECKPOINT_DIR),
         n_epochs=NUM_EPOCHS,
         learning_rate=LEARNING_RATE,
