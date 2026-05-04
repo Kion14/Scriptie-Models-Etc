@@ -94,7 +94,6 @@ def load_image_and_instance_mask(sample_dir):
     if len(np.unique(mask)) <= 1:
         print(f"WARNING: empty instance mask after relabeling: {sample_dir}")
 
-    img = img[..., np.newaxis]
 
     return img, mask
 
