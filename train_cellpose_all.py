@@ -6,7 +6,8 @@ import numpy as np
 import torch
 from PIL import Image
 
-from cellpose import models, train
+from cellpose import models, train, io
+import matplotlib.pyplot as plt
 
 
 DATA_DIR = os.environ.get(
@@ -91,11 +92,56 @@ def load_image_and_instance_mask(sample_dir):
     mask = np.array(mask_pil, dtype=np.uint16)
     mask = relabel_instance_mask(mask)
 
+    unique_vals = np.unique(mask)
+    print(
+        f"{sample_dir} | image shape: {img.shape} | "
+        f"mask shape: {mask.shape} | "
+        f"instances: {len(unique_vals) - 1} | "
+        f"unique first values: {unique_vals[:10]}"
+    )
+
     if len(np.unique(mask)) <= 1:
         print(f"WARNING: empty instance mask after relabeling: {sample_dir}")
 
 
     return img, mask
+
+
+def save_cellpose_predictions(model, samples, num_samples=20):
+    out_dir = RESULTS_DIR / "predictions"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    for i, sample_dir in enumerate(samples[:num_samples]):
+        img, gt_mask = load_image_and_instance_mask(sample_dir)
+
+        pred_masks, flows, styles = model.eval(
+            img,
+            channels=[0, 0],
+            diameter=None,
+        )
+
+        plt.figure(figsize=(12, 4))
+
+        plt.subplot(1, 3, 1)
+        plt.imshow(img, cmap="gray")
+        plt.title("Input image")
+        plt.axis("off")
+
+        plt.subplot(1, 3, 2)
+        plt.imshow(gt_mask, cmap="nipy_spectral")
+        plt.title("Ground truth instance mask")
+        plt.axis("off")
+
+        plt.subplot(1, 3, 3)
+        plt.imshow(pred_masks, cmap="nipy_spectral")
+        plt.title("Cellpose prediction")
+        plt.axis("off")
+
+        plt.tight_layout()
+        plt.savefig(out_dir / f"cellpose_prediction_{i}.png")
+        plt.close()
+
+    print(f"Saved predictions to: {out_dir}")
 
 
 def main():
@@ -150,6 +196,9 @@ def main():
     )
 
     print(f"Saved Cellpose model to: {model_path}")
+
+    print("Saving Cellpose predictions...")
+    save_cellpose_predictions(model, val_samples, num_samples=20)
 
 
 if __name__ == "__main__":
